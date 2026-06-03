@@ -67,7 +67,7 @@ const faqSchema = {
       name: "国領駅から何分ですか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "京王線「国領駅」より徒歩約5〜7分ほどです。このページの「お店までの道のり」で写真付き道順をご確認ください。",
+        text: "京王線「国領駅」より徒歩約3分です。このページの「お店までの道のり」で写真付き道順をご確認ください。",
       },
     },
     {
@@ -102,7 +102,7 @@ const steps = [
     step: "01",
     title: "国領駅の改札を出ます",
     description:
-      "京王線「国領駅」に到着したら改札を出てください。小さな駅なので迷う心配はありません。",
+      "京王線「国領駅」に到着したら改札を出てください。国領駅の改札は一ヶ所です。",
     image: "/images/access/access-01.jpg",
     imageAlt: "京王線 国領駅 外観",
   },
@@ -182,7 +182,7 @@ const steps = [
     step: "11",
     title: "Atelier♡Spring に到着！",
     description:
-      "アンティーク調の木製の扉と「Atelier♡Spring」の看板が目印です。調布・国領にある南フランスアンティーク・アクセサリーのアトリエへようこそ。",
+      "アンティーク調の木製の扉と「Atelier♡Spring」の看板が目印です。調布・国領にあるセレクトショップへようこそ。",
     image: "/images/access/access-11.jpg",
     imageAlt: "Atelier♡Spring 入口扉 到着",
   },
@@ -191,19 +191,19 @@ const steps = [
 const faqs = [
   {
     q: "国領駅から何分ですか？",
-    a: "京王線「国領駅」より徒歩約5〜7分ほどです。このページの「お店までの道のり」で写真付きの道順をご確認いただけますので、初めての方でも安心してお越しいただけます。",
+    a: "京王線「国領駅」より徒歩約3分です。このページの「お店までの道のり」で写真付きの道順をご確認いただけますので、初めての方でも安心してお越しいただけます。",
   },
   {
     q: "駐車場はありますか？",
     a: "専用駐車場はございません。お車でお越しの場合は、近隣のコインパーキングをご利用ください。",
   },
   {
-    q: "営業日・時間を教えてください。",
-    a: "営業日・時間は不定期のため、ご来店前にInstagram（@atelierspring_izumi）で最新情報をご確認ください。急な変更がある場合もInstagramにてお知らせします。",
+    q: "定休日・営業時間を教えてください。",
+    a: "定休日は毎週月曜日・第1火曜日・第3火曜日です。営業日・営業時間の最新情報はご来店前にInstagram（@atelierspring_izumi）でご確認ください。",
   },
   {
     q: "初めてでも入りやすいですか？",
-    a: "もちろんです。小さなアトリエですが、ぜひお気軽にお越しください。南フランスの世界観に包まれた空間で、ゆっくりとお過ごしいただけます。",
+    a: "もちろんです。ぜひお気軽にお越しください。ゆっくりとご覧いただけます。",
   },
   {
     q: "オンラインショップはありますか？",
@@ -234,7 +234,7 @@ export default function AccessPage() {
       <section className="relative h-[60vh] lg:h-[70vh] min-h-[400px] flex items-center overflow-hidden">
         <Image
           src="/images/shop/exterior-1.jpg"
-          alt="Atelier♡Spring 外観 調布・国領のアンティークショップ"
+          alt="Atelier♡Spring 外観 調布・国領のセレクトショップ"
           fill
           className="object-cover object-center"
           priority
@@ -323,25 +323,33 @@ export default function AccessPage() {
                     label: "最寄駅",
                     content: (
                       <p className="text-[14px] text-[#3A3028] font-light">
-                        京王線 国領駅
+                        京王線 国領駅<br />
+                        <span className="text-[12px] text-[#8A7A6A]">（徒歩約3分）</span>
                       </p>
                     ),
                   },
                   {
                     label: "営業情報",
                     content: (
-                      <p className="text-[13px] text-[#5C4A3A] font-light leading-loose">
-                        不定期営業のため、最新情報は<br />
-                        <a
-                          href="https://www.instagram.com/atelierspring_izumi/"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="text-[#C9A96E] hover:underline"
-                        >
-                          Instagram @atelierspring_izumi
-                        </a>
-                        をご確認ください。
-                      </p>
+                      <div className="text-[13px] text-[#5C4A3A] font-light leading-loose">
+                        <p className="mb-2">
+                          <span className="text-[10px] tracking-[0.15em] text-[#C9A96E] uppercase">定休日</span><br />
+                          毎週月曜日<br />
+                          第1火曜日・第3火曜日
+                        </p>
+                        <p className="text-[12px] text-[#8A7A6A]">
+                          営業日・営業時間の最新情報は<br />
+                          <a
+                            href="https://www.instagram.com/atelierspring_izumi/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="text-[#C9A96E] hover:underline"
+                          >
+                            Instagram @atelierspring_izumi
+                          </a>
+                          をご確認ください。
+                        </p>
+                      </div>
                     ),
                   },
                 ].map(({ label, content }, i) => (

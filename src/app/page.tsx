@@ -48,7 +48,7 @@ const faqs = [
   },
   {
     q: "店舗はどこにありますか？",
-    a: "〒182-0022 東京都調布市国領町4-7-23にございます。京王線「国領駅」より徒歩圏内です。営業日・時間は不定期のため、最新情報はInstagram（@atelierspring_izumi）でご確認ください。",
+    a: "〒182-0022 東京都調布市国領町4-7-23にございます。京王線「国領駅」より徒歩約3分です。定休日は毎週月曜日・第1火曜日・第3火曜日です。営業日・営業時間の最新情報はInstagram（@atelierspring_izumi）でご確認ください。",
   },
 ];
 
@@ -180,7 +180,7 @@ export default function Home() {
               <FadeIn delay={0.22}>
                 <div className="space-y-5 text-[13px] lg:text-[14px] leading-loose text-[#5C4A3A] font-light">
                   <p>アルビの蚤の市などでフランス在住の仕入れ担当が見つけたアンティークやヴィンテージの食器には、大量生産品にはない経年の美しさがあります。使い込まれた貫入（かんにゅう）のひび、金彩のわずかな退色、手描きの絵付け——それぞれが、フランスの暮らしの中で積み重なった日常の美しさです。</p>
-                  <p>フランスの蚤の市や骨董商を巡る仕入れ担当が見つけた、本当に心を動かされる一点物だけをお届けしています。量産品では決して出せない経年の味わいと個性を、調布・国領から。</p>
+                  <p>フランスの蚤の市やブロカントを巡る仕入れ担当が見つけた、本当に心を動かされる一点物だけをお届けしています。量産品では決して出せない経年の味わいと個性を、調布・国領から。</p>
                   <p>テーブルに一つ置くだけで、食事の時間が少しだけ豊かになる——それが、ときめきの一点物との出会いです。</p>
                 </div>
               </FadeIn>
@@ -294,7 +294,7 @@ export default function Home() {
               <p>「調布でセレクトショップを探している」「国領周辺でアンティーク・ヴィンテージ雑貨やアクセサリーが買えるお店はないか」——そのような方に、Atelier♡Springをおすすめします。</p>
               <p>京王線の国領駅からほど近い場所に位置する当店は、フランス在住の仕入れ担当から届くアンティーク・ヴィンテージの食器・雑貨と、彫金技術を習得した店主が制作する手しごとのアクセサリーを扱うセレクトショップです。お客様に「ときめき」をお届けするための品々をご用意しています。</p>
               <p>食器や雑貨のほか、シルバー925や天然石を使った手作りアクセサリーも取り扱っています。自分へのご褒美に、大切な方へのギフトに。世界でひとつの品との出会いをお楽しみください。</p>
-              <p>店舗は不定期営業のため、訪問前にInstagram（@atelierspring_izumi）にて営業日をご確認ください。BASEオンラインショップでは常時お買い求めいただけます。</p>
+              <p>定休日は毎週月曜日・第1火曜日・第3火曜日です。営業日・営業時間の最新情報はInstagram（@atelierspring_izumi）でご確認ください。BASEオンラインショップでは常時お買い求めいただけます。</p>
             </div>
           </FadeIn>
           <FadeIn delay={0.32}>
@@ -365,7 +365,7 @@ export default function Home() {
                 <div>
                   <p className="text-[10px] tracking-[0.4em] text-[#C9A96E] uppercase mb-3">Location</p>
                   <p className="font-cormorant text-xl text-[#3A3028] font-light mb-2">調布市 国領町</p>
-                  <address className="not-italic text-[12px] text-[#8A7A6A] leading-loose">〒182-0022<br />東京都調布市国領町4-7-23<br />京王線「国領駅」より徒歩圏内</address>
+                  <address className="not-italic text-[12px] text-[#8A7A6A] leading-loose">〒182-0022<br />東京都調布市国領町4-7-23<br />京王線「国領駅」より徒歩約3分</address>
                   <a href="https://www.google.com/maps/search/?api=1&query=東京都調布市国領町4-7-23" target="_blank" rel="noopener noreferrer"
                     className="inline-block mt-3 text-[11px] tracking-[0.2em] text-[#C9A96E] uppercase hover:underline">Googleマップで見る →</a>
                 </div>
@@ -374,7 +374,11 @@ export default function Home() {
                 <div>
                   <p className="text-[10px] tracking-[0.4em] text-[#C9A96E] uppercase mb-3">Hours</p>
                   <p className="font-cormorant text-xl text-[#3A3028] font-light mb-2">営業時間</p>
-                  <p className="text-[12px] text-[#8A7A6A] leading-loose">不定期営業<br />最新情報はInstagramをご確認ください</p>
+                  <p className="text-[12px] text-[#8A7A6A] leading-loose">
+                    定休日：毎週月曜日・第1・第3火曜日<br />
+                    営業日・営業時間の最新情報は<br className="sm:hidden" />
+                    Instagramをご確認ください
+                  </p>
                 </div>
               </FadeIn>
               <FadeIn delay={0.29}>
