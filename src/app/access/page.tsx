@@ -140,17 +140,17 @@ const steps = [
   },
   {
     step: "06",
-    title: "PACEの角を進みます",
+    title: "PIZZERIA ASTROの角を進みます",
     description:
-      "左手に「PACE」というお店が見えたら、そのまま矢印の方向へ進んでください。",
+      "左手に「PIZZERIA ASTRO」というお店が見えたら、そのまま矢印の方向へ進んでください。",
     image: "/images/access/access-06.jpg",
-    imageAlt: "PACE前 進行方向",
+    imageAlt: "PIZZERIA ASTRO前 進行方向",
   },
   {
     step: "07",
     title: "Bamboo Boxを通り過ぎます",
     description:
-      "「Bamboo Box」の前を通り過ぎてください。目印になります。",
+      "「Bamboo Box」の前を通り過ぎてください。正面に「焼肉仙牛」の看板が見えます。仙牛を目指して真っ直ぐにお進みください。",
     image: "/images/access/access-07.jpg",
     imageAlt: "Bamboo Box 外観",
   },
@@ -158,9 +158,9 @@ const steps = [
     step: "08",
     title: "レンガ造りの建物が見えます",
     description:
-      "丸みのある特徴的なレンガ造りの建物が角に見えてきます。そのあたりが目安です。",
+      "丸みのある特徴的なレンガ造りの建物が見えてきます。この素敵な家の横を通り過ぎます。そのまま真っ直ぐお進みください。",
     image: "/images/access/access-08.jpg",
-    imageAlt: "角のレンガ造りの建物",
+    imageAlt: "レンガ造りの建物",
   },
   {
     step: "09",
