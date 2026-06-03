@@ -3,9 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "手作りアクセサリー｜調布・国領のセレクトショップ Atelier♡Spring",
+  title: "手仕事のアクセサリー｜調布・国領のセレクトショップ Atelier♡Spring",
   description:
-    "調布のAtelier♡Springの手作りアクセサリー。彫金技術を学んだ店主が手がける、ネックレス・ピアス・ブローチなどの一点物アクセサリー。フランス陶器の欠片や天然石を素材に、心ときめく作品を制作しています。",
+    "調布のAtelier♡Springの手作りアクセサリー。彫金技術を習得した店主がシルバー925や天然石を使って制作する一点物アクセサリー。薔薇のモチーフや天然石を使った作品のほか、アンティーク陶磁器を使ったリメイクアクセサリーも制作。調布・国領のセレクトショップ。",
 };
 
 export default function AccessoriesPage() {
@@ -16,7 +16,7 @@ export default function AccessoriesPage() {
         <div className="relative h-[40vh] lg:h-[55vh]">
           <Image
             src="/images/accessories-hero.jpg"
-            alt="Atelier♡Springの手作りアクセサリー"
+            alt="Atelier♡Springの手仕事のアクセサリー"
             fill
             className="object-cover"
             priority
@@ -41,10 +41,10 @@ export default function AccessoriesPage() {
           </h2>
           <div className="space-y-5 text-[13px] lg:text-[14px] leading-loose text-[#5C4A3A] font-light text-left max-w-2xl mx-auto">
             <p>
-              Atelier♡Springのアクセサリーはすべて、彫金教室で技術を学んだ店主の手しごとによるものです。フランス陶器の欠片、天然石、シルバーなどを組み合わせながら、一つひとつ丁寧に制作しています。
+              Atelier♡Springのアクセサリーはすべて、彫金技術を習得した店主の手しごとによるものです。シルバー925や天然石を素材に、薔薇のモチーフなど心ときめくアクセサリーを一つひとつ丁寧に制作しています。
             </p>
             <p>
-              陶器モチーフの作品だけでなく、彫金技術を活かした金属作品も手がけています。「これをつけたら気分が上がる」——そんなときめきを大切に、素材と向き合いながら作り続けています。
+              割れてしまったアンティーク陶磁器を使ったリメイクアクセサリーはほとんどが一点物。陶器の欠片だけでなく、彫金技術を活かしたさまざまな素材の作品を手がけています。「これをつけたら気分が上がる」——そんなときめきを大切に、素材と向き合いながら作り続けています。
             </p>
             <p>
               ネックレス、ピアス・イヤリング、ブローチなど、同じ作品は二つとありません。あなただけの、世界にひとつのアクセサリーをお選びください。
@@ -66,7 +66,7 @@ export default function AccessoriesPage() {
               {
                 step: "Step 01",
                 title: "素材との出会い",
-                desc: "フランス各地から届く陶器の欠片、天然石、シルバーパーツ——心ときめく素材との出会いから制作が始まります。",
+                desc: "シルバー925、天然石、薔薇などのモチーフ素材、アンティーク陶磁器の欠片——心ときめく素材との出会いから制作が始まります。",
               },
               {
                 step: "Step 02",
@@ -112,7 +112,7 @@ export default function AccessoriesPage() {
               </h2>
               <div className="space-y-4 text-[13px] leading-loose text-[#5C4A3A] font-light">
                 <p>
-                  心が動いた素材を手に取り、どんな形にしたら一番輝くかを考えながら制作する——それがAtelier♡Springのアクセサリーづくりです。
+                  彫金技術を習得した店主がシルバー925や天然石を使って制作する一点物アクセサリー。薔薇のモチーフや、割れてしまったアンティーク陶磁器を使ったリメイクアクセサリーはほとんどが一点物です。
                 </p>
                 <p>
                   毎日のコーデに小さなときめきを添えてくれる一点物。一度手に取ったら、ずっと手放せなくなる——そんな出会いをお届けしたいと思っています。

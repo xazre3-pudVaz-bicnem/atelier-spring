@@ -8,54 +8,39 @@ import FAQList from "@/components/FAQList";
 export const metadata: Metadata = {
   title: "調布・国領のセレクトショップ｜Atelier♡Spring",
   description:
-    "東京都調布市国領町にあるフランス雑貨・ヴィンテージ雑貨と手作りアクセサリーのセレクトショップ。調布・国領でときめく一点物をお探しなら、彫金師が営むAtelier♡Springへ。フランスから届く食器・雑貨と手しごとのアクセサリーを取り揃えています。",
+    "東京都調布市国領町にあるアンティーク・ヴィンテージ雑貨と手作りアクセサリーのセレクトショップ。フランス在住の仕入れ担当から届くアンティーク食器・ヴィンテージ雑貨と、彫金技術を習得した店主が制作する一点物アクセサリー。調布・国領でときめく品をお探しなら、Atelier♡Springへ。",
 };
 
 const categories = [
   {
-    en: "Tableware & Goods",
-    ja: "フランスから届く食器・雑貨",
-    desc: "アルビ地方の窯元から届く食器や、フランス各地の骨董市で見つけた一点物。毎日の食卓に、ときめきを添えて。",
+    en: "Antique & Vintage",
+    ja: "アンティーク・ヴィンテージの食器・雑貨",
+    desc: "アルビの蚤の市などからフランス在住の仕入れ担当が見つけたアンティークやヴィンテージの食器・雑貨。大量生産品にはない経年美と個性が魅力の一点物。",
   },
   {
     en: "Selected Goods",
     ja: "店主がセレクトした雑貨",
-    desc: "店主が心から「いい」と感じた雑貨・小物だけを厳選。フランスの暮らしから生まれた、置くだけで空間が変わる品々。",
+    desc: "お客様に「ときめき」をお届けするために、店主がひとつひとつ厳選した雑貨。フランスの暮らしから生まれた、置くだけで空間が変わる品々。",
   },
   {
-    en: "Ceramic Accessories",
-    ja: "陶器アクセサリー",
-    desc: "フランスアンティーク陶器の欠片を素材に、彫金技術を活かして仕上げた一点物アクセサリー。世界にひとつだけの作品。",
-  },
-  {
-    en: "Necklace",
-    ja: "ネックレス",
-    desc: "陶器・天然石・シルバーを組み合わせた繊細なネックレス。身に纏うたびに気分が上がる、一点物の作品。",
-  },
-  {
-    en: "Pierced / Clip Earrings",
-    ja: "ピアス・イヤリング",
-    desc: "揺れるたびに光を纏う、手しごとのピアス・イヤリング。毎日のコーデに小さなときめきを。",
-  },
-  {
-    en: "Gift",
-    ja: "ギフト",
-    desc: "大切な方への贈り物に。一点物だからこそ伝わる、世界でひとつの気持ちを添えて。",
+    en: "Handmade Accessories",
+    ja: "手仕事のアクセサリー",
+    desc: "彫金技術を習得した店主がシルバー925や天然石を使って制作する一点物アクセサリー。薔薇のモチーフや、アンティーク陶磁器を使ったリメイク作品など。",
   },
 ];
 
 const faqs = [
   {
     q: "調布でヴィンテージ雑貨・セレクト雑貨を購入できますか？",
-    a: "はい。東京都調布市国領町4-7-23のAtelier♡Springにて、フランスから届く食器・雑貨と手作りアクセサリーをご覧いただけます。BASEオンラインショップ（springwater.base.shop）からもご購入いただけます。",
+    a: "はい。東京都調布市国領町4-7-23のAtelier♡Springにて、フランスから届くアンティーク・ヴィンテージの食器や雑貨、手作りアクセサリーをご覧いただけます。BASEオンラインショップ（springwater.base.shop）からもご購入いただけます。",
   },
   {
-    q: "フランスの食器や雑貨はありますか？",
-    a: "はい。店主がフランス各地から直接買い付けた食器や雑貨を取り揃えています。アルビ地方の窯元から届く品々など、フランスならではの一点物です。",
+    q: "フランスのアンティーク食器や雑貨はありますか？",
+    a: "はい。フランス在住の仕入れ担当がアルビの蚤の市などで見つけたアンティークやヴィンテージの食器・雑貨を取り揃えています。量産品にはない経年美が魅力の一点物です。",
   },
   {
-    q: "アクセサリーは一点物ですか？",
-    a: "すべて一点物です。彫金技術を学んだ店主が、フランス陶器の欠片や天然石などを組み合わせ、一つひとつ丁寧に仕上げています。同じ作品は二つとありません。",
+    q: "アクセサリーはどのような作品ですか？",
+    a: "彫金技術を習得した店主がシルバー925や天然石を使って制作する一点物アクセサリーです。薔薇のモチーフや天然石を使った作品のほか、割れてしまったアンティーク陶磁器を使ったリメイクアクセサリーはほとんどが一点物です。",
   },
   {
     q: "オンラインで購入できますか？",
@@ -109,9 +94,9 @@ export default function Home() {
               </FadeIn>
               <FadeIn delay={0.22}>
                 <div className="space-y-5 text-[13px] lg:text-[14px] leading-loose text-[#5C4A3A] font-light">
-                  <p>Atelier♡Spring（アトリエ♡スプリング）は、東京都調布市国領町にある小さなセレクトショップです。フランス各地から届く食器や雑貨と、彫金技術を学んだ店主が手がける一点物のアクセサリーを取り揃えています。</p>
-                  <p>「必要だから買う」ではなく、「手に取ったときに心が動く」もの——。暮らしが少し楽しくなるもの、心が満たされるものとの出会いを大切に、フランスの骨董市や窯元を自ら訪ね、本当にときめいた品だけをセレクトしています。</p>
-                  <p>食器・雑貨の一点物から、フランス陶器を素材にした手しごとのアクセサリーまで。自分へのご褒美にも、大切な方へのギフトにも。</p>
+                  <p>Atelier♡Spring（アトリエ♡スプリング）は、東京都調布市国領町にある小さなセレクトショップです。フランス在住の仕入れ担当から届くアンティーク・ヴィンテージの食器や雑貨と、彫金技術を習得した店主が手がける一点物のアクセサリーを取り揃えています。</p>
+                  <p>「必要だから買う」ではなく、「手に取ったときに心が動く」もの——。暮らしが少し楽しくなるもの、心が満たされるものとの出会いを大切に、お客様にときめきをお届けするための品々をご用意しています。</p>
+                  <p>食器・雑貨の一点物から、彫金技術を活かした手しごとのアクセサリーまで。自分へのご褒美にも、大切な方へのギフトにも。</p>
                 </div>
               </FadeIn>
               <FadeIn delay={0.32}>
@@ -157,9 +142,9 @@ export default function Home() {
             <FadeIn delay={0.18}><div className="w-12 h-px bg-[#C9A96E] mx-auto mt-6" /></FadeIn>
             <FadeIn delay={0.24}><p className="mt-6 text-[12px] text-[#8A7A6A] font-light">すべて一点物。ご購入はBASEオンラインショップにて。</p></FadeIn>
           </div>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-5">
             {categories.map((cat, i) => (
-              <FadeIn key={cat.ja} delay={i * 0.07}>
+              <FadeIn key={cat.ja} delay={i * 0.1}>
                 <a href="https://springwater.base.shop/" target="_blank" rel="noopener noreferrer"
                   className="group block bg-[#FAF8F5] p-7 border border-[#E8E0D6] hover:border-[#C9A96E] hover:-translate-y-1 hover:shadow-[0_8px_32px_rgba(58,48,40,0.08)] transition-all duration-400">
                   <p className="text-[10px] tracking-[0.3em] text-[#C9A96E] uppercase mb-3">{cat.en}</p>
@@ -175,27 +160,27 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ─── フランスの品の魅力 ─── */}
+      {/* ─── アンティーク・ヴィンテージの魅力 ─── */}
       <section className="py-24 lg:py-36 bg-[#FAF8F5]">
         <div className="max-w-6xl mx-auto px-6 lg:px-10">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-24 items-center">
             <FadeIn delay={0.1} className="relative">
               <div className="relative aspect-[4/3] overflow-hidden">
-                <Image src="/images/shop/antique-bookshelf.jpg" alt="フランスから届く食器・雑貨" fill className="object-cover scale-[1.03] hover:scale-100 transition-transform duration-700" />
+                <Image src="/images/shop/antique-bookshelf.jpg" alt="アンティーク・ヴィンテージの食器・雑貨" fill className="object-cover scale-[1.03] hover:scale-100 transition-transform duration-700" />
               </div>
               <div className="absolute -top-4 -left-4 w-2/3 h-2/3 border border-[#C9A96E]/25 -z-10" />
             </FadeIn>
             <div>
-              <FadeIn><p className="text-[10px] tracking-[0.4em] text-[#C9A96E] uppercase mb-6">From France</p></FadeIn>
+              <FadeIn><p className="text-[10px] tracking-[0.4em] text-[#C9A96E] uppercase mb-6">Antique &amp; Vintage</p></FadeIn>
               <FadeIn delay={0.12}>
                 <h2 className="font-cormorant text-4xl lg:text-5xl text-[#3A3028] font-light leading-snug mb-8">
-                  フランスから届く、<br /><span className="italic">時間の美しさ。</span>
+                  アンティーク・ヴィンテージとの、<br /><span className="italic">ときめく出会い。</span>
                 </h2>
               </FadeIn>
               <FadeIn delay={0.22}>
                 <div className="space-y-5 text-[13px] lg:text-[14px] leading-loose text-[#5C4A3A] font-light">
-                  <p>アルビ地方の窯元から届く食器には、大量生産品にはない手仕事の温もりがあります。使い込まれた貫入（かんにゅう）のひび、金彩のわずかな退色、手描きの絵付け——それぞれが、フランスの暮らしの中で積み重なった日常の美しさです。</p>
-                  <p>店主はフランス各地の骨董市や蚤の市、窯元を自ら訪ね、本当に心を動かされた一点だけをセレクト。量産品では決して出せない経年の味わいと、フランスの空気を調布・国領からお届けします。</p>
+                  <p>アルビの蚤の市などでフランス在住の仕入れ担当が見つけたアンティークやヴィンテージの食器には、大量生産品にはない経年の美しさがあります。使い込まれた貫入（かんにゅう）のひび、金彩のわずかな退色、手描きの絵付け——それぞれが、フランスの暮らしの中で積み重なった日常の美しさです。</p>
+                  <p>フランスの蚤の市や骨董商を巡る仕入れ担当が見つけた、本当に心を動かされる一点物だけをお届けしています。量産品では決して出せない経年の味わいと個性を、調布・国領から。</p>
                   <p>テーブルに一つ置くだけで、食事の時間が少しだけ豊かになる——それが、ときめきの一点物との出会いです。</p>
                 </div>
               </FadeIn>
@@ -217,9 +202,9 @@ export default function Home() {
               </FadeIn>
               <FadeIn delay={0.22}>
                 <div className="space-y-5 text-[13px] lg:text-[14px] leading-loose text-[#5C4A3A] font-light">
-                  <p>Atelier♡Springのアクセサリーはすべて、彫金教室で技術を学んだ店主の手しごとによるものです。フランス陶器の欠片、天然石、シルバーなどを組み合わせながら、一つひとつ丁寧に仕上げています。</p>
-                  <p>陶器モチーフの作品だけにとらわれず、彫金技術を活かした金属作品も制作。「これをつけたら気分が上がる」——そんなときめきを大切に、素材と形を追い求めながら作り続けています。</p>
-                  <p>ネックレス、ピアス・イヤリング、ブローチなど、すべて一点物。同じ作品は世界にふたつとありません。</p>
+                  <p>Atelier♡Springのアクセサリーはすべて、彫金技術を習得した店主の手しごとによるものです。シルバー925や天然石を素材に、薔薇のモチーフなど心ときめくアクセサリーを一つひとつ丁寧に制作しています。</p>
+                  <p>割れてしまったアンティーク陶磁器を使ったリメイクアクセサリーもほとんどが一点物。陶器だけでなく、彫金技術を活かしたさまざまな素材の作品を手がけています。</p>
+                  <p>「これをつけたら気分が上がる」——そんなときめきを大切に、素材と向き合いながら作り続けています。</p>
                 </div>
               </FadeIn>
               <FadeIn delay={0.32}>
@@ -284,7 +269,7 @@ export default function Home() {
           </FadeIn>
           <FadeIn delay={0.22}>
             <p className="text-[13px] text-[#BDB0A4] font-light leading-loose mb-10 max-w-xl mx-auto">
-              フランスから届く食器・ヴィンテージ雑貨、手しごとのアクセサリーなど、最新入荷商品をBASEオンラインショップでご覧ください。全国発送対応。
+              アンティーク・ヴィンテージの食器・雑貨、手しごとのアクセサリーなど、最新入荷商品をBASEオンラインショップでご覧ください。全国発送対応。
             </p>
           </FadeIn>
           <FadeIn delay={0.3}>
@@ -306,9 +291,9 @@ export default function Home() {
           </div>
           <FadeIn delay={0.22}>
             <div className="space-y-5 text-[13px] lg:text-[14px] leading-loose text-[#5C4A3A] font-light max-w-2xl mx-auto">
-              <p>「調布でセレクトショップを探している」「国領周辺でヴィンテージ雑貨やアクセサリーが買えるお店はないか」——そのような方に、Atelier♡Springをおすすめします。</p>
-              <p>京王線の国領駅からほど近い場所に位置する当店は、フランスから届く食器・ヴィンテージ雑貨と手しごとのアクセサリーを扱うセレクトショップです。「ときめき」を大切に、店主がひとつひとつ厳選した一点物をご用意しています。</p>
-              <p>食器や雑貨のほか、彫金技術を学んだ店主による手作りアクセサリーも取り扱っています。自分へのご褒美に、大切な方へのギフトに。世界でひとつの品との出会いをお楽しみください。</p>
+              <p>「調布でセレクトショップを探している」「国領周辺でアンティーク・ヴィンテージ雑貨やアクセサリーが買えるお店はないか」——そのような方に、Atelier♡Springをおすすめします。</p>
+              <p>京王線の国領駅からほど近い場所に位置する当店は、フランス在住の仕入れ担当から届くアンティーク・ヴィンテージの食器・雑貨と、彫金技術を習得した店主が制作する手しごとのアクセサリーを扱うセレクトショップです。お客様に「ときめき」をお届けするための品々をご用意しています。</p>
+              <p>食器や雑貨のほか、シルバー925や天然石を使った手作りアクセサリーも取り扱っています。自分へのご褒美に、大切な方へのギフトに。世界でひとつの品との出会いをお楽しみください。</p>
               <p>店舗は不定期営業のため、訪問前にInstagram（@atelierspring_izumi）にて営業日をご確認ください。BASEオンラインショップでは常時お買い求めいただけます。</p>
             </div>
           </FadeIn>
@@ -334,7 +319,7 @@ export default function Home() {
           </FadeIn>
           <FadeIn delay={0.22}>
             <p className="text-[13px] text-[#5C4A3A] font-light leading-loose mb-10">
-              新入荷の雑貨・食器や新作アクセサリーは、Instagramで先行公開しています。<br className="hidden sm:block" />
+              新入荷のアンティーク・ヴィンテージ雑貨や新作アクセサリーは、Instagramで先行公開しています。<br className="hidden sm:block" />
               ときめく品々との出会いを、日常の中でお楽しみください。
             </p>
           </FadeIn>
