@@ -14,8 +14,8 @@ export default function Footer() {
               アトリエ♡スプリング
             </p>
             <p className="text-[12px] leading-relaxed text-[#BDB0A4] font-light">
-              南フランスアンティーク食器と<br />
-              手作りアクセサリーのアトリエショップ
+              フランスから届くアンティーク・ヴィンテージ雑貨と<br />
+              手仕事のアクセサリーのセレクトショップ
             </p>
           </div>
 
@@ -45,10 +45,15 @@ export default function Footer() {
           {/* Info */}
           <div>
             <p className="text-[10px] tracking-[0.3em] text-[#C9A96E] uppercase mb-6">Shop Info</p>
-            <address className="not-italic text-[12px] leading-loose text-[#BDB0A4] font-light mb-6">
+            <address className="not-italic text-[12px] leading-loose text-[#BDB0A4] font-light mb-4">
               〒182-0022<br />
-              東京都調布市国領町4-7-23
+              東京都調布市国領町4-7-23<br />
+              京王線 国領駅より徒歩約3分
             </address>
+            <p className="text-[12px] leading-loose text-[#BDB0A4] font-light mb-6">
+              営業時間 11:00〜18:00<br />
+              定休日：月曜・第1・第3火曜日
+            </p>
             <div className="flex flex-col gap-3">
               <a
                 href="https://www.instagram.com/atelierspring_izumi/"
@@ -77,7 +82,7 @@ export default function Footer() {
             © {new Date().getFullYear()} Atelier♡Spring. All rights reserved.
           </p>
           <p className="text-[10px] tracking-[0.15em] text-[#7A6A5A]">
-            調布市のアンティークショップ
+            調布市国領町のセレクトショップ
           </p>
         </div>
       </div>

@@ -164,17 +164,17 @@ const steps = [
   },
   {
     step: "09",
-    title: "英会話の看板の路地を進みます",
+    title: "英会話教室の看板の路地を進みます",
     description:
-      "「TME英会話」の看板がある細い路地を真っ直ぐ進んでください。",
+      "「TME英会話教室」の看板がある細い路地を真っ直ぐ進んでください。",
     image: "/images/access/access-09.jpg",
-    imageAlt: "英会話看板のある路地",
+    imageAlt: "英会話教室看板のある路地",
   },
   {
     step: "10",
     title: "コインランドリーが見えたらすぐです",
     description:
-      "コインランドリーが右手に見えたら、アトリエはもうすぐそこです。",
+      "コインランドリーが右手に見えたら、ショップはもうすぐそこです。",
     image: "/images/access/access-10.jpg",
     imageAlt: "コインランドリー 目印",
   },
@@ -199,7 +199,7 @@ const faqs = [
   },
   {
     q: "定休日・営業時間を教えてください。",
-    a: "定休日は毎週月曜日・第1火曜日・第3火曜日です。営業日・営業時間の最新情報はご来店前にInstagram（@atelierspring_izumi）でご確認ください。",
+    a: "営業時間は11:00〜18:00です。定休日は毎週月曜日・第1火曜日・第3火曜日です。最新情報はInstagram（@atelierspring_izumi）でご確認ください。",
   },
   {
     q: "初めてでも入りやすいですか？",
@@ -331,23 +331,23 @@ export default function AccessPage() {
                   {
                     label: "営業情報",
                     content: (
-                      <div className="text-[13px] text-[#5C4A3A] font-light leading-loose">
-                        <p className="mb-2">
+                      <div className="text-[13px] text-[#5C4A3A] font-light leading-loose space-y-2">
+                        <p>
+                          <span className="text-[10px] tracking-[0.15em] text-[#C9A96E] uppercase">営業時間</span><br />
+                          11:00〜18:00
+                        </p>
+                        <p>
                           <span className="text-[10px] tracking-[0.15em] text-[#C9A96E] uppercase">定休日</span><br />
                           毎週月曜日<br />
                           第1火曜日・第3火曜日
                         </p>
                         <p className="text-[12px] text-[#8A7A6A]">
-                          営業日・営業時間の最新情報は<br />
-                          <a
+                          最新情報は<a
                             href="https://www.instagram.com/atelierspring_izumi/"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="text-[#C9A96E] hover:underline"
-                          >
-                            Instagram @atelierspring_izumi
-                          </a>
-                          をご確認ください。
+                          >Instagram @atelierspring_izumi</a>をご確認ください。
                         </p>
                       </div>
                     ),

@@ -48,7 +48,7 @@ const faqs = [
   },
   {
     q: "店舗はどこにありますか？",
-    a: "〒182-0022 東京都調布市国領町4-7-23にございます。京王線「国領駅」より徒歩約3分です。定休日は毎週月曜日・第1火曜日・第3火曜日です。営業日・営業時間の最新情報はInstagram（@atelierspring_izumi）でご確認ください。",
+    a: "〒182-0022 東京都調布市国領町4-7-23にございます。京王線「国領駅」より徒歩約3分です。営業時間は11:00〜18:00、定休日は毎週月曜日・第1火曜日・第3火曜日です。最新情報はInstagram（@atelierspring_izumi）でご確認ください。",
   },
 ];
 
@@ -375,9 +375,9 @@ export default function Home() {
                   <p className="text-[10px] tracking-[0.4em] text-[#C9A96E] uppercase mb-3">Hours</p>
                   <p className="font-cormorant text-xl text-[#3A3028] font-light mb-2">営業時間</p>
                   <p className="text-[12px] text-[#8A7A6A] leading-loose">
+                    11:00〜18:00<br />
                     定休日：毎週月曜日・第1・第3火曜日<br />
-                    営業日・営業時間の最新情報は<br className="sm:hidden" />
-                    Instagramをご確認ください
+                    最新情報はInstagramをご確認ください
                   </p>
                 </div>
               </FadeIn>
