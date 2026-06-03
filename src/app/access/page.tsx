@@ -6,16 +6,16 @@ import FAQList from "@/components/FAQList";
 import AccessSteps from "@/components/AccessSteps";
 
 export const metadata: Metadata = {
-  title: "アクセス・ご来店案内｜調布・国領のアンティーク雑貨店 Atelier♡Spring",
+  title: "アクセス・ご来店案内｜調布・国領のセレクトショップ Atelier♡Spring",
   description:
-    "調布市国領町のアンティーク雑貨店・Atelier♡Spring（アトリエ♡スプリング）へのアクセスご案内。京王線「国領駅」から写真付き道順でご案内します。調布・国領でアンティーク・アクセサリーをお探しの方はぜひご来店ください。",
+    "調布市国領町のセレクトショップ・Atelier♡Spring（アトリエ♡スプリング）へのアクセスご案内。京王線「国領駅」から写真付き道順でご案内します。調布・国領でヴィンテージ雑貨・アクセサリーをお探しの方はぜひご来店ください。",
   keywords: [
-    "調布 アンティーク",
-    "国領 アンティーク",
+    "調布 セレクトショップ",
+    "国領 セレクトショップ",
     "調布 雑貨店",
     "調布 アクセサリー",
     "国領 雑貨",
-    "調布 南フランス",
+    "調布 ヴィンテージ雑貨",
     "国領駅 アクセス",
   ],
   openGraph: {

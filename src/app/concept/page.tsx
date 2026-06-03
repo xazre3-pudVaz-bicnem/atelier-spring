@@ -3,9 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "コンセプト",
+  title: "コンセプト｜調布・国領のセレクトショップ Atelier♡Spring",
   description:
-    "調布市国領町のアンティークショップAtelier♡Springのコンセプト。南フランスアンティーク食器と、ジュエリーデザイナーが生み出す手作りアクセサリーの物語。",
+    "Atelier♡Springのコンセプト。「ときめき」を大切に——必要だから買うのではなく、心が動くものとの出会いを。調布市国領町のセレクトショップが大切にしていること。",
 };
 
 export default function ConceptPage() {
@@ -24,27 +24,30 @@ export default function ConceptPage() {
         <div className="relative z-10 max-w-6xl mx-auto px-6 lg:px-10 w-full">
           <p className="text-[10px] tracking-[0.4em] text-[#C9A96E] uppercase mb-3">Concept</p>
           <h1 className="font-cormorant text-4xl lg:text-6xl text-white font-light italic">
-            アトリエの物語
+            ときめきと出会う場所
           </h1>
         </div>
       </section>
 
-      {/* South of France */}
+      {/* ときめきのコンセプト */}
       <section className="py-24 lg:py-36 bg-[#FAF8F5]">
         <div className="max-w-6xl mx-auto px-6 lg:px-10">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-24 items-center">
             <div className="relative order-2 lg:order-1">
-              <p className="text-[10px] tracking-[0.4em] text-[#C9A96E] uppercase mb-6">South of France</p>
+              <p className="text-[10px] tracking-[0.4em] text-[#C9A96E] uppercase mb-6">Our Story</p>
               <h2 className="font-cormorant text-4xl lg:text-5xl text-[#3A3028] font-light leading-snug mb-8">
-                陽光降り注ぐ<br />
-                <span className="italic">南フランスから。</span>
+                必要だから買うのではなく、<br />
+                <span className="italic">心が動くものと出会う。</span>
               </h2>
               <div className="space-y-5 text-[13px] lg:text-[14px] leading-loose text-[#5C4A3A] font-light">
                 <p>
-                  プロヴァンスの青い空の下、何十年もの時を経た食器たちはそれぞれ異なる表情を持っています。使い込まれた貫入（かんにゅう）の細かなひびが描く模様、金彩のわずかな退色——その一つひとつが、フランスの家庭で積み重なった日常の美しさです。
+                  Atelier♡Springがご提案するのは「ときめき」です。手に取ったときに心が動くもの、暮らしが少し楽しくなるもの、心が満たされるものとの出会いを大切にしています。
                 </p>
                 <p>
-                  Atelier♡Springは、そんな南フランスのアンティーク食器を調布から届けることを大切にしています。買い付けの旅では、地域の骨董市や老舗の蚤の市を巡り、本当に心を動かされた一点だけを選び抜いています。
+                  フランスの骨董市や窯元を自ら訪れ、「これだ」と感じた品だけを持ち帰る。量産品には出せない一点物の美しさ、経年が育んだ味わい——それがAtelier♡Springのセレクトです。
+                </p>
+                <p>
+                  調布・国領の小さなアトリエで、あなただけの「ときめく一点」との出会いをお待ちしています。
                 </p>
               </div>
             </div>
@@ -52,7 +55,7 @@ export default function ConceptPage() {
               <div className="relative aspect-[4/3] overflow-hidden">
                 <Image
                   src="/images/shop/antique-window.jpg"
-                  alt="南フランスのアンティーク食器"
+                  alt="フランスから届く一点物"
                   fill
                   className="object-cover"
                 />
@@ -67,9 +70,9 @@ export default function ConceptPage() {
       <section className="bg-[#EDE8E1]">
         <div className="grid grid-cols-3">
           {[
-            { src: "/images/shop/antique-shelf.jpg",    alt: "アンティーク食器棚" },
+            { src: "/images/shop/antique-shelf.jpg",    alt: "フランス食器棚" },
             { src: "/images/shop/antique-pitcher2.jpg", alt: "アンティーク水差し" },
-            { src: "/images/shop/antique-plates2.jpg",  alt: "アンティーク皿" },
+            { src: "/images/shop/antique-plates2.jpg",  alt: "フランス食器" },
           ].map((img) => (
             <div key={img.src} className="relative aspect-[4/3] overflow-hidden">
               <Image src={img.src} alt={img.alt} fill className="object-cover hover:scale-105 transition-transform duration-700" />
@@ -78,7 +81,7 @@ export default function ConceptPage() {
         </div>
       </section>
 
-      {/* Upcycle story */}
+      {/* フランスのセレクト */}
       <section className="py-24 lg:py-36 bg-[#EDE8E1]">
         <div className="max-w-6xl mx-auto px-6 lg:px-10">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-24 items-center">
@@ -86,7 +89,7 @@ export default function ConceptPage() {
               <div className="relative aspect-[4/3] overflow-hidden">
                 <Image
                   src="/images/shop/accessories-tray.jpg"
-                  alt="アンティーク陶器から生まれたアクセサリー"
+                  alt="手しごとのアクセサリー"
                   fill
                   className="object-cover"
                 />
@@ -94,20 +97,20 @@ export default function ConceptPage() {
               <div className="absolute -bottom-4 -right-4 w-2/3 h-2/3 border border-[#C9A96E]/20 -z-10" />
             </div>
             <div>
-              <p className="text-[10px] tracking-[0.4em] text-[#C9A96E] uppercase mb-6">Upcycle &amp; Craft</p>
+              <p className="text-[10px] tracking-[0.4em] text-[#C9A96E] uppercase mb-6">Handmade &amp; Craft</p>
               <h2 className="font-cormorant text-4xl lg:text-5xl text-[#3A3028] font-light leading-snug mb-8">
-                割れた欠片は、<br />
-                <span className="italic">美しい宝石になる。</span>
+                彫金技術で生まれる、<br />
+                <span className="italic">世界に一つの作品。</span>
               </h2>
               <div className="space-y-5 text-[13px] lg:text-[14px] leading-loose text-[#5C4A3A] font-light">
                 <p>
-                  フランスから食器を輸送する長い旅路の中で、どうしても傷ついてしまうものが出てきます。以前であれば、そうした欠片は惜しまれながら廃棄されていました。
+                  店主は彫金教室に通い、金属を扱う技術を学びながら作品を制作しています。フランス陶器の欠片を素材にしたアクセサリーだけでなく、彫金技術を活かした金属作品も手がけています。
                 </p>
                 <p>
-                  でも、ジュエリーデザイナーである店主の目には、それは「まだ生きている」ものに映りました。リモージュの磁器片、プロヴァンスの陶器の断片——一つひとつの形と色彩を活かしながら、シルバーや天然石を組み合わせて丁寧に仕上げたアクセサリーは、壊れる前とはまた別の光を放ちます。
+                  「これをつけたら気分が上がる」——そんなときめきを大切に、素材と向き合いながら一つひとつ丁寧に仕上げています。陶器モチーフにとらわれず、心が動く形を追い求めて制作し続けています。
                 </p>
                 <p>
-                  調布のアンティークショップから生まれる、廃棄ゼロへの小さな試み。それがAtelier♡Springのもうひとつの顔です。
+                  調布のセレクトショップから生まれる、世界にひとつだけのアクセサリー。それがAtelier♡Springのもうひとつの顔です。
                 </p>
               </div>
             </div>
@@ -136,9 +139,21 @@ export default function ConceptPage() {
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-12">
             {[
-              { num: "01", title: "本物の一点物",     body: "大量生産品は置きません。フランスの時間を経た、代わりのない一点物だけを扱います。" },
-              { num: "02", title: "物語のある品",     body: "どの食器にも、どのアクセサリーにも、旅と人の歴史が宿っています。その物語ごとお届けします。" },
-              { num: "03", title: "サステナブルな美", body: "割れてしまった陶器も、捨てません。新しい形に生まれ変わらせることで、美しさを次の世代へ。" },
+              {
+                num: "01",
+                title: "ときめきの一点物",
+                body: "「必要だから」ではなく、「心が動く」かどうか。そのときめきを基準に、フランスから一点一点セレクトしています。",
+              },
+              {
+                num: "02",
+                title: "手しごとのぬくもり",
+                body: "彫金技術を学んだ店主が一つひとつ手がけるアクセサリー。量産品にはない、手仕事だからこそ宿る温もりがあります。",
+              },
+              {
+                num: "03",
+                title: "物語のある品",
+                body: "フランスの暮らしから生まれた食器・雑貨には、長い時間と人の記憶が宿っています。その物語ごとお届けします。",
+              },
             ].map((v) => (
               <div key={v.num} className="flex flex-col items-center">
                 <span className="font-cormorant text-5xl text-[#C9A96E]/40 font-light mb-4">{v.num}</span>
@@ -157,7 +172,7 @@ export default function ConceptPage() {
           <div className="absolute inset-0 bg-[#3A3028]/30" />
           <div className="absolute inset-0 flex items-center justify-center">
             <p className="font-cormorant text-2xl lg:text-4xl text-white font-light italic tracking-wide text-center px-6">
-              調布・国領から、南フランスの美を。
+              ときめきを、暮らしの中へ。
             </p>
           </div>
         </div>

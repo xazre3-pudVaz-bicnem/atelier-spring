@@ -3,9 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "手作りアクセサリー・陶器アクセサリー",
+  title: "手作りアクセサリー｜調布・国領のセレクトショップ Atelier♡Spring",
   description:
-    "調布のAtelier♡Springの手作りアクセサリー。南フランスアンティーク陶器・磁器の欠片から生まれた一点物のネックレス・ピアス・ブローチ。ジュエリーデザイナーによる陶器アクセサリー。",
+    "調布のAtelier♡Springの手作りアクセサリー。彫金技術を学んだ店主が手がける、ネックレス・ピアス・ブローチなどの一点物アクセサリー。フランス陶器の欠片や天然石を素材に、心ときめく作品を制作しています。",
 };
 
 export default function AccessoriesPage() {
@@ -16,7 +16,7 @@ export default function AccessoriesPage() {
         <div className="relative h-[40vh] lg:h-[55vh]">
           <Image
             src="/images/accessories-hero.jpg"
-            alt="南フランスアンティーク陶器から生まれたアクセサリー"
+            alt="Atelier♡Springの手作りアクセサリー"
             fill
             className="object-cover"
             priority
@@ -26,8 +26,8 @@ export default function AccessoriesPage() {
         <div className="absolute bottom-0 left-0 right-0 p-8 lg:p-16 text-center">
           <p className="text-[10px] tracking-[0.4em] text-[#C9A96E] uppercase mb-3">Handmade Accessories</p>
           <h1 className="font-cormorant text-4xl lg:text-6xl text-white font-light">
-            南フランス磁器から生まれた、<br className="hidden sm:block" />
-            <span className="italic">一点物の手作りアクセサリー</span>
+            彫金師の手しごとで生まれる、<br className="hidden sm:block" />
+            <span className="italic">ひとつだけの輝き</span>
           </h1>
         </div>
       </section>
@@ -37,17 +37,17 @@ export default function AccessoriesPage() {
         <div className="max-w-4xl mx-auto px-6 lg:px-10 text-center">
           <p className="text-[10px] tracking-[0.4em] text-[#C9A96E] uppercase mb-6">About</p>
           <h2 className="font-cormorant text-3xl lg:text-4xl text-[#3A3028] font-light mb-8">
-            欠片に宿る、フランスの記憶
+            心ときめく、世界にひとつのアクセサリー
           </h2>
           <div className="space-y-5 text-[13px] lg:text-[14px] leading-loose text-[#5C4A3A] font-light text-left max-w-2xl mx-auto">
             <p>
-              Atelier♡Springのアクセサリーはすべて、店主であるジュエリーデザイナーの手仕事によるものです。南フランスから輸送したアンティーク食器のうち、旅の途中で割れてしまった陶器や磁器の美しい欠片を素材として使用しています。
+              Atelier♡Springのアクセサリーはすべて、彫金教室で技術を学んだ店主の手しごとによるものです。フランス陶器の欠片、天然石、シルバーなどを組み合わせながら、一つひとつ丁寧に制作しています。
             </p>
             <p>
-              リモージュの白磁、プロヴァンスの色付き陶器、ヴィンテージチェーン、天然石——それらを組み合わせながら、一つひとつ丁寧に仕上げた陶器アクセサリーは、「もう一度輝く場所」を与えられた宝物です。
+              陶器モチーフの作品だけでなく、彫金技術を活かした金属作品も手がけています。「これをつけたら気分が上がる」——そんなときめきを大切に、素材と向き合いながら作り続けています。
             </p>
             <p>
-              ネックレス、ピアス・イヤリング、ブローチなど、同じ作品は二つとありません。あなただけの、南フランスの記憶を纏うアクセサリーをお選びください。
+              ネックレス、ピアス・イヤリング、ブローチなど、同じ作品は二つとありません。あなただけの、世界にひとつのアクセサリーをお選びください。
             </p>
           </div>
         </div>
@@ -58,25 +58,25 @@ export default function AccessoriesPage() {
         <div className="max-w-6xl mx-auto px-6 lg:px-10">
           <div className="text-center mb-12">
             <p className="text-[10px] tracking-[0.4em] text-[#C9A96E] uppercase mb-4">Process</p>
-            <h2 className="font-cormorant text-3xl lg:text-4xl text-[#3A3028] font-light">制作プロセス</h2>
+            <h2 className="font-cormorant text-3xl lg:text-4xl text-[#3A3028] font-light">制作について</h2>
             <div className="mt-6 w-12 h-px bg-[#C9A96E] mx-auto" />
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 text-center">
             {[
               {
                 step: "Step 01",
-                title: "南フランスで買い付け",
-                desc: "プロヴァンスの蚤の市や骨董商を巡り、本物のアンティーク食器・陶器を厳選。",
+                title: "素材との出会い",
+                desc: "フランス各地から届く陶器の欠片、天然石、シルバーパーツ——心ときめく素材との出会いから制作が始まります。",
               },
               {
                 step: "Step 02",
-                title: "欠片を選ぶ",
-                desc: "輸送中に割れた陶器の中から、美しい色・模様・形の欠片を丁寧に選り分けます。",
+                title: "彫金技術で形にする",
+                desc: "彫金教室で学んだ技術を活かし、素材の個性を引き出しながら一点一点丁寧に仕上げていきます。",
               },
               {
                 step: "Step 03",
-                title: "手作りアクセサリーへ",
-                desc: "ジュエリーデザイナーの手仕事で、シルバーや天然石と組み合わせ一点物に仕上げます。",
+                title: "世界にひとつの作品へ",
+                desc: "同じ作品は二つとない一点物。身に纏うたびに気分が上がる、ときめきのアクセサリーが生まれます。",
               },
             ].map((s) => (
               <div key={s.step} className="flex flex-col items-center">
@@ -97,7 +97,7 @@ export default function AccessoriesPage() {
               <div className="relative aspect-[4/3] overflow-hidden">
                 <Image
                   src="/images/shop/accessories-display.jpg"
-                  alt="アンティーク陶器から生まれた手作りアクセサリー"
+                  alt="手しごとのアクセサリー"
                   fill
                   className="object-cover"
                 />
@@ -105,17 +105,17 @@ export default function AccessoriesPage() {
               <div className="absolute -bottom-4 -right-4 w-2/3 h-2/3 border border-[#C9A96E]/25 -z-10" />
             </div>
             <div>
-              <p className="text-[10px] tracking-[0.4em] text-[#C9A96E] uppercase mb-6">Upcycle &amp; Craft</p>
+              <p className="text-[10px] tracking-[0.4em] text-[#C9A96E] uppercase mb-6">Tokimeki</p>
               <h2 className="font-cormorant text-3xl lg:text-4xl text-[#3A3028] font-light leading-snug mb-6">
-                割れた欠片は、<br />
-                <span className="italic">美しい宝石になる。</span>
+                「ときめき」を纏う、<br />
+                <span className="italic">毎日のアクセサリー。</span>
               </h2>
               <div className="space-y-4 text-[13px] leading-loose text-[#5C4A3A] font-light">
                 <p>
-                  捨てられるはずだったアンティーク陶器の欠片に、新しい命を吹き込む——それがAtelier♡Springの手仕事アクセサリーです。
+                  心が動いた素材を手に取り、どんな形にしたら一番輝くかを考えながら制作する——それがAtelier♡Springのアクセサリーづくりです。
                 </p>
                 <p>
-                  廃棄ゼロへの小さな試みとして始まったこの取り組みは、今では当店のもうひとつの顔となっています。一点物だからこそ、世界でただひとつのアクセサリーが生まれます。
+                  毎日のコーデに小さなときめきを添えてくれる一点物。一度手に取ったら、ずっと手放せなくなる——そんな出会いをお届けしたいと思っています。
                 </p>
               </div>
             </div>

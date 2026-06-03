@@ -2,41 +2,41 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Online Shop・商品紹介",
+  title: "Online Shop・商品紹介｜調布・国領のセレクトショップ Atelier♡Spring",
   description:
-    "調布のアンティークショップAtelier♡Springのオンラインショップ。南フランスアンティーク食器・雑貨と手作りアクセサリーの一点物をBASEにてご購入いただけます。",
+    "調布のセレクトショップAtelier♡Springのオンラインショップ。フランスから届く食器・ヴィンテージ雑貨と、彫金師が手がける手作りアクセサリーの一点物をBASEにてご購入いただけます。",
 };
 
 const categories = [
   {
-    en: "Antique Tableware",
-    ja: "南フランスアンティーク食器",
-    desc: "プロヴァンスや南仏各地の骨董市から厳選した皿・カップ・プレートなど。使い込まれた経年美が魅力の一点物です。",
+    en: "Tableware & Goods",
+    ja: "フランスから届く食器・雑貨",
+    desc: "アルビ地方の窯元から届く食器や、フランス各地の骨董市で見つけた一点物。使い込まれた経年美が魅力です。",
   },
   {
-    en: "Antique Goods",
-    ja: "アンティーク雑貨",
-    desc: "フランスの日常に息づいた小物や装飾品。長い時間が育んだ味わいを、あなたの暮らしの中へ。",
+    en: "Selected Goods",
+    ja: "店主がセレクトした雑貨",
+    desc: "店主が心からときめいた雑貨・小物だけを厳選。フランスの暮らしから生まれた、置くだけで空間が変わる品々。",
   },
   {
     en: "Ceramic Accessories",
     ja: "陶器アクセサリー",
-    desc: "南フランスのアンティーク磁器・陶器の欠片から生まれた一点物のアクセサリー。",
+    desc: "フランスアンティーク陶器の欠片を素材に、彫金技術を活かして仕上げた一点物アクセサリー。",
   },
   {
     en: "Necklace",
     ja: "ネックレス",
-    desc: "磁器の欠片とシルバー・天然石を組み合わせた繊細なネックレス。",
+    desc: "陶器・天然石・シルバーを組み合わせた繊細なネックレス。身に纏うたびに気分が上がる一点物。",
   },
   {
     en: "Pierced / Clip Earrings",
     ja: "ピアス・イヤリング",
-    desc: "フランス磁器から生まれた揺れるピアス・イヤリング。",
+    desc: "揺れるたびに光を纏う、手しごとのピアス・イヤリング。毎日のコーデに小さなときめきを。",
   },
   {
     en: "Gift",
     ja: "ギフト",
-    desc: "一点物だからこそ伝わる特別な贈り物。大切な方への南フランスのプレゼントに。",
+    desc: "一点物だからこそ伝わる特別な贈り物。大切な方へ、世界にひとつのプレゼントを。",
   },
 ];
 
@@ -52,7 +52,7 @@ export default function ShopPage() {
           </h1>
           <div className="w-12 h-px bg-[#C9A96E] mx-auto mb-8" />
           <p className="text-[13px] text-[#5C4A3A] font-light leading-loose max-w-xl mx-auto">
-            南フランスアンティーク食器・雑貨と、アンティーク陶器から生まれた手作りアクセサリーを取り揃えています。<br />
+            フランスから届く食器・ヴィンテージ雑貨と、彫金師が手がける手作りアクセサリーを取り揃えています。<br />
             すべて一点物。ご購入はBASEオンラインショップにて。
           </p>
         </div>
@@ -105,18 +105,18 @@ export default function ShopPage() {
         </div>
       </section>
 
-      {/* About antique */}
+      {/* About select */}
       <section className="py-16 lg:py-24 bg-[#FAF8F5]">
         <div className="max-w-4xl mx-auto px-6 lg:px-10">
           <h2 className="font-cormorant text-3xl lg:text-4xl text-[#3A3028] font-light text-center mb-10">
-            南フランスアンティークについて
+            Atelier♡Springのセレクトについて
           </h2>
           <div className="space-y-5 text-[13px] lg:text-[14px] leading-loose text-[#5C4A3A] font-light max-w-2xl mx-auto">
             <p>
-              Atelier♡Springで取り扱う南フランスアンティーク食器は、プロヴァンスをはじめとする南仏各地の骨董市や蚤の市から、店主が直接買い付けた一点物です。
+              Atelier♡Springで取り扱う食器・雑貨は、アルビ地方の窯元から届く品々や、フランス各地の骨董市・蚤の市から店主が直接買い付けた一点物です。
             </p>
             <p>
-              リモージュ磁器、プロヴァンス陶器、ヴィンテージの食器類など、大量生産品にはない経年美と個性が魅力。食卓に置くだけで、南フランスの空気感が漂います。
+              「ときめくかどうか」を基準に厳選された品々は、大量生産品にはない経年美と個性が魅力。食卓に置くだけで、暮らしが少し豊かになります。
             </p>
             <p>
               在庫・商品ラインナップはBASEオンラインショップにてご確認ください。入荷情報はInstagramでも随時発信しています。

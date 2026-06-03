@@ -32,7 +32,7 @@ export default function HeroSection() {
         >
           <Image
             src="/images/hero-spring.jpg"
-            alt="南フランスの泉"
+            alt="Atelier♡Spring アトリエ"
             fill
             className="object-cover object-center"
             priority
@@ -85,7 +85,7 @@ export default function HeroSection() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.9, delay: 1.1, ease: [0.22, 1, 0.36, 1] }}
         >
-          南フランスアンティークと<br />手仕事のアクセサリー
+          フランスのセレクト雑貨と<br />手しごとのアクセサリー
         </motion.p>
 
         <motion.p
