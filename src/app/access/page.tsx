@@ -83,7 +83,7 @@ const faqSchema = {
       name: "初めてでも入りやすいですか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "もちろんです。小さなアトリエですが、ぜひお気軽にお越しください。",
+        text: "もちろんです。大人可愛い小さなショップですので、ぜひお気軽にお越しください。",
       },
     },
     {
@@ -116,11 +116,11 @@ const steps = [
   },
   {
     step: "03",
-    title: "松屋の前の交差点を直進します",
+    title: "松屋の看板の前を通ります",
     description:
-      "松屋が見える交差点に出ます。そのまま直進してください。",
+      "松屋の看板の前を通ってください。そのまま真っ直ぐお進みください。",
     image: "/images/access/access-03.jpg",
-    imageAlt: "松屋前の交差点",
+    imageAlt: "松屋の看板",
   },
   {
     step: "04",
@@ -132,11 +132,11 @@ const steps = [
   },
   {
     step: "05",
-    title: "国領集会場を右手に直進します",
+    title: "PIZZERIA ASTROを目指して進みます",
     description:
-      "右手に「国領集会場」が見えたら、そのまま矢印の方向へ直進してください。",
+      "PIZZERIA ASTRO（ピッツェリア アストロ）を目指して真っ直ぐお進みください。",
     image: "/images/access/access-05.jpg",
-    imageAlt: "国領集会場 方向案内",
+    imageAlt: "PIZZERIA ASTRO方向案内",
   },
   {
     step: "06",
@@ -164,11 +164,11 @@ const steps = [
   },
   {
     step: "09",
-    title: "英会話教室の看板の路地を進みます",
+    title: "英会話教室の横を進みます",
     description:
-      "「TME英会話教室」の看板がある細い路地を真っ直ぐ進んでください。",
+      "英会話教室の横をそのままお進みください。",
     image: "/images/access/access-09.jpg",
-    imageAlt: "英会話教室看板のある路地",
+    imageAlt: "英会話教室の横",
   },
   {
     step: "10",
@@ -210,8 +210,8 @@ const faqs = [
     a: "はい、BASEオンラインショップ（springwater.base.shop）にてご購入いただけます。遠方の方や、ご来店が難しい方もぜひご利用ください。全国発送対応しています。",
   },
   {
-    q: "調布駅からどうやって行けばいいですか？",
-    a: "調布駅から京王線で一駅の「国領駅」でお降りください。バスや自転車でのアクセスも可能です。Googleマップでのルート検索もご活用ください。",
+    q: "調布方面から来る場合はどうすればいいですか？",
+    a: "京王線「国領駅」でお降りください。国領駅から当店まで徒歩約3分です。駅の改札は一ヶ所なので迷わずお越しいただけます。Googleマップでのルート検索もご活用ください。",
   },
 ];
 
@@ -257,7 +257,7 @@ export default function AccessPage() {
           <FadeIn delay={0.2}>
             <div className="w-12 h-px bg-[#C9A96E] mb-6" />
             <p className="text-[13px] text-white/75 font-light leading-[2] max-w-sm">
-              調布・国領の小さなアトリエへ。<br />
+              大人可愛い小さなショップへ。<br />
               初めての方でも安心してお越しいただけるよう、<br />
               駅からの道順をご案内いたします。
             </p>

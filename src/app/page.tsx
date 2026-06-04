@@ -70,7 +70,7 @@ export default function Home() {
         <div className="max-w-4xl mx-auto px-6 text-center">
           <FadeIn>
             <p className="font-cormorant text-2xl lg:text-3xl text-[#EDE8E1] font-light italic tracking-wide">
-              &ldquo; 必要だから買うのではなく、心が動くものと出会う場所。 &rdquo;
+              &ldquo; 心がときめくものと出逢う場所。 &rdquo;
             </p>
           </FadeIn>
           <FadeIn delay={0.15}>
@@ -95,7 +95,7 @@ export default function Home() {
               <FadeIn delay={0.22}>
                 <div className="space-y-5 text-[13px] lg:text-[14px] leading-loose text-[#5C4A3A] font-light">
                   <p>Atelier♡Spring（アトリエ♡スプリング）は、東京都調布市国領町にある小さなセレクトショップです。フランス在住の仕入れ担当から届くアンティーク・ヴィンテージの食器や雑貨と、彫金技術を習得した店主が手がける一点物のアクセサリーを取り揃えています。</p>
-                  <p>「必要だから買う」ではなく、「手に取ったときに心が動く」もの——。暮らしが少し楽しくなるもの、心が満たされるものとの出会いを大切に、お客様にときめきをお届けするための品々をご用意しています。</p>
+                  <p>「必要か必要ではないか」の判断ではなく、「手に取ったときに心が動く」もの——。暮らしが少し楽しくなるもの、心が満たされるものとの出会いを大切に、お客様にときめきをお届けするための品々をご用意しています。</p>
                   <p>食器・雑貨の一点物から、彫金技術を活かした手しごとのアクセサリーまで。自分へのご褒美にも、大切な方へのギフトにも。</p>
                 </div>
               </FadeIn>
@@ -204,7 +204,7 @@ export default function Home() {
                 <div className="space-y-5 text-[13px] lg:text-[14px] leading-loose text-[#5C4A3A] font-light">
                   <p>Atelier♡Springのアクセサリーはすべて、彫金技術を習得した店主の手しごとによるものです。シルバー925や天然石を素材に、薔薇のモチーフなど心ときめくアクセサリーを一つひとつ丁寧に制作しています。</p>
                   <p>割れてしまったアンティーク陶磁器を使ったリメイクアクセサリーもほとんどが一点物。陶器だけでなく、彫金技術を活かしたさまざまな素材の作品を手がけています。</p>
-                  <p>「これをつけたら気分が上がる」——そんなときめきを大切に、素材と向き合いながら作り続けています。</p>
+                  <p>お客様の宝物になるように、そんな願いを込めて一点一点丁寧に制作しています。本格的なシルバー925のアクセサリーから、遊び心を活かして制作した気軽なアクセサリーまで。どうぞごゆっくりご覧ください。</p>
                 </div>
               </FadeIn>
               <FadeIn delay={0.32}>
@@ -269,7 +269,7 @@ export default function Home() {
           </FadeIn>
           <FadeIn delay={0.22}>
             <p className="text-[13px] text-[#BDB0A4] font-light leading-loose mb-10 max-w-xl mx-auto">
-              アンティーク・ヴィンテージの食器・雑貨、手しごとのアクセサリーなど、最新入荷商品をBASEオンラインショップでご覧ください。全国発送対応。
+              手しごとのアクセサリーをBASEオンラインショップでご購入いただけます。全国発送対応。<br className="hidden sm:block" />食器・雑貨は店舗のみの販売です。
             </p>
           </FadeIn>
           <FadeIn delay={0.3}>
@@ -291,10 +291,10 @@ export default function Home() {
           </div>
           <FadeIn delay={0.22}>
             <div className="space-y-5 text-[13px] lg:text-[14px] leading-loose text-[#5C4A3A] font-light max-w-2xl mx-auto">
-              <p>「調布でセレクトショップを探している」「国領周辺でアンティーク・ヴィンテージ雑貨やアクセサリーが買えるお店はないか」——そのような方に、Atelier♡Springをおすすめします。</p>
-              <p>京王線の国領駅からほど近い場所に位置する当店は、フランス在住の仕入れ担当から届くアンティーク・ヴィンテージの食器・雑貨と、彫金技術を習得した店主が制作する手しごとのアクセサリーを扱うセレクトショップです。お客様に「ときめき」をお届けするための品々をご用意しています。</p>
+              <p>フランス在住の仕入れ担当から届くアンティーク・ヴィンテージの食器・雑貨と、彫金技術を習得した店主が制作する手しごとのアクセサリーを扱うセレクトショップです。お客様に「ときめき」をお届けするための品々をご用意しています。</p>
               <p>食器や雑貨のほか、シルバー925や天然石を使った手作りアクセサリーも取り扱っています。自分へのご褒美に、大切な方へのギフトに。世界でひとつの品との出会いをお楽しみください。</p>
-              <p>定休日は毎週月曜日・第1火曜日・第3火曜日です。営業日・営業時間の最新情報はInstagram（@atelierspring_izumi）でご確認ください。BASEオンラインショップでは常時お買い求めいただけます。</p>
+              <p>なお、BASEオンラインショップではアクセサリーのみ販売しています。食器・雑貨は店舗でのみお求めいただけます。</p>
+              <p>営業時間：11:00〜18:00　定休日：毎週月曜日・第1・第3火曜日<br />最新情報はInstagram（@atelierspring_izumi）でご確認ください。</p>
             </div>
           </FadeIn>
           <FadeIn delay={0.32}>
