@@ -8,7 +8,7 @@ import FAQList from "@/components/FAQList";
 export const metadata: Metadata = {
   title: "調布・国領のセレクトショップ｜Atelier♡Spring",
   description:
-    "東京都調布市国領町にあるアンティーク・ヴィンテージ雑貨と手作りアクセサリーのセレクトショップ。フランス在住の仕入れ担当から届くアンティーク食器・ヴィンテージ雑貨と、彫金技術を習得した店主が制作する一点物アクセサリー。調布・国領でときめく品をお探しなら、Atelier♡Springへ。",
+    "東京都調布市国領町にあるアンティークやヴィンテージ雑貨と手作りアクセサリーのセレクトショップ。フランス在住の仕入れ担当から届くアンティーク食器・ヴィンテージ雑貨と、彫金技術を習得した店主が制作する一点物アクセサリー。調布・国領でときめく品をお探しなら、Atelier♡Springへ。",
 };
 
 const categories = [
@@ -35,7 +35,7 @@ const categories = [
 const faqs = [
   {
     q: "調布でヴィンテージ雑貨・セレクト雑貨を購入できますか？",
-    a: "はい。東京都調布市国領町4-7-23のAtelier♡Springにて、フランスから届くアンティーク・ヴィンテージの食器や雑貨、手作りアクセサリーをご覧いただけます。BASEオンラインショップ（springwater.base.shop）からもご購入いただけます。",
+    a: "はい。東京都調布市国領町4-7-23のAtelier♡Springにて、フランスから届くアンティークやヴィンテージの食器や雑貨、手作りアクセサリーをご覧いただけます。BASEオンラインショップ（springwater.base.shop）からもご購入いただけます。",
   },
   {
     q: "フランスのアンティーク食器や雑貨はありますか？",
@@ -170,13 +170,13 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ─── アンティーク・ヴィンテージの魅力 ─── */}
+      {/* ─── アンティークやヴィンテージの魅力 ─── */}
       <section className="py-24 lg:py-36 bg-[#FAF8F5]">
         <div className="max-w-6xl mx-auto px-6 lg:px-10">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-24 items-center">
             <FadeIn delay={0.1} className="relative">
               <div className="relative aspect-[4/3] overflow-hidden">
-                <Image src="/images/shop/antique-bookshelf.jpg" alt="アンティーク・ヴィンテージの食器・雑貨" fill className="object-cover scale-[1.03] hover:scale-100 transition-transform duration-700" />
+                <Image src="/images/shop/antique-bookshelf.jpg" alt="アンティークやヴィンテージの食器・雑貨" fill className="object-cover scale-[1.03] hover:scale-100 transition-transform duration-700" />
               </div>
               <div className="absolute -top-4 -left-4 w-2/3 h-2/3 border border-[#C9A96E]/25 -z-10" />
             </FadeIn>
@@ -301,7 +301,7 @@ export default function Home() {
           </div>
           <FadeIn delay={0.22}>
             <div className="space-y-5 text-[13px] lg:text-[14px] leading-loose text-[#5C4A3A] font-light max-w-2xl mx-auto">
-              <p>フランス在住の仕入れ担当から届くアンティーク・ヴィンテージの食器・雑貨と、彫金技術を習得した店主が制作する手しごとのアクセサリーを扱うセレクトショップです。お客様に「ときめき」をお届けするための品々をご用意しています。</p>
+              <p>フランス在住の仕入れ担当から届くアンティークやヴィンテージの食器・雑貨と、彫金技術を習得した店主が制作する手しごとのアクセサリーを扱うセレクトショップです。お客様に「ときめき」をお届けするための品々をご用意しています。</p>
               <p>食器や雑貨のほか、シルバー925や天然石を使った手作りアクセサリーも取り扱っています。自分へのご褒美に、大切な方へのギフトに。世界でひとつの品との出会いをお楽しみください。</p>
               <p>なお、BASEオンラインショップではアクセサリーのみ販売しています。食器・雑貨は店舗でのみお求めいただけます。</p>
               <p>営業時間：11:00〜18:00　定休日：毎週月曜日・第1・第3火曜日<br />最新情報はInstagram（@atelierspring_izumi）でご確認ください。</p>
@@ -329,7 +329,7 @@ export default function Home() {
           </FadeIn>
           <FadeIn delay={0.22}>
             <p className="text-[13px] text-[#5C4A3A] font-light leading-loose mb-10">
-              新入荷のアンティーク・ヴィンテージ雑貨や新作アクセサリーは、Instagramで先行公開しています。<br className="hidden sm:block" />
+              新入荷のアンティークやヴィンテージ雑貨や新作アクセサリーは、Instagramで先行公開しています。<br className="hidden sm:block" />
               ときめく品々との出会いを、日常の中でお楽しみください。
             </p>
           </FadeIn>

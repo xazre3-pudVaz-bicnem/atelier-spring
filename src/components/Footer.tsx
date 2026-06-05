@@ -14,7 +14,7 @@ export default function Footer() {
               アトリエ♡スプリング
             </p>
             <p className="text-[12px] leading-relaxed text-[#BDB0A4] font-light">
-              フランスから届くアンティーク・ヴィンテージ雑貨と<br />
+              フランスから届くアンティークやヴィンテージ雑貨と<br />
               手仕事のアクセサリーのセレクトショップ
             </p>
           </div>

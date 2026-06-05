@@ -4,13 +4,13 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Online Shop・商品紹介｜調布・国領のセレクトショップ Atelier♡Spring",
   description:
-    "調布のセレクトショップAtelier♡Springのオンラインショップ。フランス在住の仕入れ担当から届くアンティーク・ヴィンテージの食器・雑貨と、彫金技術を習得した店主が制作する手作りアクセサリーをBASEにてご購入いただけます。",
+    "調布のセレクトショップAtelier♡Springのオンラインショップ。フランス在住の仕入れ担当から届くアンティークやヴィンテージの食器・雑貨と、彫金技術を習得した店主が制作する手作りアクセサリーをBASEにてご購入いただけます。",
 };
 
 const categories = [
   {
     en: "Antique & Vintage",
-    ja: "アンティーク・ヴィンテージの食器・雑貨",
+    ja: "アンティークやヴィンテージの食器・雑貨",
     desc: "アルビの蚤の市などからフランス在住の仕入れ担当が見つけたアンティークやヴィンテージの食器・雑貨。大量生産品にはない経年美と個性が魅力の一点物。",
   },
   {
@@ -37,7 +37,7 @@ export default function ShopPage() {
           </h1>
           <div className="w-12 h-px bg-[#C9A96E] mx-auto mb-8" />
           <p className="text-[13px] text-[#5C4A3A] font-light leading-loose max-w-xl mx-auto">
-            フランス在住の仕入れ担当から届くアンティーク・ヴィンテージの食器・雑貨と、彫金技術を習得した店主が制作する手作りアクセサリーを取り揃えています。<br />
+            フランス在住の仕入れ担当から届くアンティークやヴィンテージの食器・雑貨と、彫金技術を習得した店主が制作する手作りアクセサリーを取り揃えています。<br />
             すべて一点物。ご購入はBASEオンラインショップにて。
           </p>
         </div>
