@@ -102,7 +102,7 @@ const steps = [
     step: "01",
     title: "国領駅の改札を出ます",
     description:
-      "京王線「国領駅」に到着したら改札を出てください。国領駅の改札は一ヶ所です。",
+      "国領駅の改札を出ます。改札は一ヶ所です。",
     image: "/images/access/access-01.jpg",
     imageAlt: "京王線 国領駅 外観",
   },
@@ -116,17 +116,17 @@ const steps = [
   },
   {
     step: "03",
-    title: "松屋の看板の前を通ります",
+    title: "松屋の看板の前の横断歩道を渡ります",
     description:
-      "松屋の看板の前を通ってください。そのまま真っ直ぐお進みください。",
+      "交差点はありません。松屋の看板の前の横断歩道を渡ってください。",
     image: "/images/access/access-03.jpg",
-    imageAlt: "松屋の看板",
+    imageAlt: "松屋の看板前 横断歩道",
   },
   {
     step: "04",
-    title: "プラザパレットの入口を通ります",
+    title: "プラザパレットの中に入ります",
     description:
-      "「Plaza Palette」の看板が目印です。入口を通り抜けて進みます。",
+      "「Plaza Palette」の看板が目印です。中に入り、そのまま通り抜けてください。",
     image: "/images/access/access-04.jpg",
     imageAlt: "プラザパレット 入口サイン",
   },
@@ -150,7 +150,7 @@ const steps = [
     step: "07",
     title: "Bamboo Boxを通り過ぎます",
     description:
-      "「Bamboo Box」の前を通り過ぎてください。正面に「焼肉仙牛」の看板が見えます。仙牛を目指して真っ直ぐにお進みください。",
+      "「Bamboo Box」の前を通り過ぎてください。正面に焼肉「仙牛」の看板が見えます。仙牛を目指して真っ直ぐにお進みください。",
     image: "/images/access/access-07.jpg",
     imageAlt: "Bamboo Box 外観",
   },
@@ -182,7 +182,7 @@ const steps = [
     step: "11",
     title: "Atelier♡Spring に到着！",
     description:
-      "アンティーク調の木製の扉と「Atelier♡Spring」の看板が目印です。調布・国領にあるセレクトショップへようこそ。",
+      "アンティーク調の木製の扉と「Atelier♡Spring」の看板が目印です。",
     image: "/images/access/access-11.jpg",
     imageAlt: "Atelier♡Spring 入口扉 到着",
   },
@@ -210,8 +210,8 @@ const faqs = [
     a: "はい、BASEオンラインショップ（springwater.base.shop）にてご購入いただけます。遠方の方や、ご来店が難しい方もぜひご利用ください。全国発送対応しています。",
   },
   {
-    q: "調布方面から来る場合はどうすればいいですか？",
-    a: "京王線「国領駅」でお降りください。国領駅から当店まで徒歩約3分です。駅の改札は一ヶ所なので迷わずお越しいただけます。Googleマップでのルート検索もご活用ください。",
+    q: "調布駅から二駅目ですか？",
+    a: "はい、京王線で調布駅から二駅目の「国領駅」でお降りください。国領駅から当店まで徒歩約3分です。改札は一ヶ所なので迷わずお越しいただけます。",
   },
 ];
 

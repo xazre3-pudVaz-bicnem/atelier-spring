@@ -85,7 +85,7 @@ export default function HeroSection() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.9, delay: 1.1, ease: [0.22, 1, 0.36, 1] }}
         >
-          フランスのセレクト雑貨と<br />手しごとのアクセサリー
+          アンティークやヴィンテージ雑貨と<br />オリジナルアクセサリー
         </motion.p>
 
         <motion.p

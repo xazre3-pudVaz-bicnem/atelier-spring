@@ -26,7 +26,7 @@ export default function AccessoriesPage() {
         <div className="absolute bottom-0 left-0 right-0 p-8 lg:p-16 text-center">
           <p className="text-[10px] tracking-[0.4em] text-[#C9A96E] uppercase mb-3">Handmade Accessories</p>
           <h1 className="font-cormorant text-4xl lg:text-6xl text-white font-light">
-            彫金師の手しごとで生まれる、<br className="hidden sm:block" />
+            作家の手しごとで生まれる、<br className="hidden sm:block" />
             <span className="italic">ひとつだけの輝き</span>
           </h1>
         </div>
@@ -66,7 +66,7 @@ export default function AccessoriesPage() {
               {
                 step: "Step 01",
                 title: "素材との出会い",
-                desc: "シルバー925、天然石、薔薇などのモチーフ素材、アンティーク陶磁器の欠片——心ときめく素材との出会いから制作が始まります。",
+                desc: "シルバー925、天然石、割れてしまった陶磁器の欠片——心ときめく素材との出会いから制作が始まります。",
               },
               {
                 step: "Step 02",
@@ -76,7 +76,7 @@ export default function AccessoriesPage() {
               {
                 step: "Step 03",
                 title: "世界にひとつの作品へ",
-                desc: "同じ作品は二つとない一点物。身に纏うたびに気分が上がる、ときめきのアクセサリーが生まれます。",
+                desc: "身に付けるたびにお出掛けが楽しくなる、ときめきのアクセサリーが生まれます。",
               },
             ].map((s) => (
               <div key={s.step} className="flex flex-col items-center">

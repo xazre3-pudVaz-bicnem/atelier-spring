@@ -145,7 +145,7 @@ export default function ConceptPage() {
               {
                 num: "01",
                 title: "ときめきの一点物",
-                body: "「必要だから」ではなく、「心が動く」かどうか。そのときめきを基準に、フランスから一点一点セレクトしています。",
+                body: "「必要か必要ではないか」の判断ではなく、心が潤うか——そのときめきを基準に、フランスから一点一点セレクトしています。",
               },
               {
                 num: "02",
@@ -185,7 +185,7 @@ export default function ConceptPage() {
       <section className="py-20 bg-[#3A3028]">
         <div className="max-w-2xl mx-auto px-6 text-center">
           <p className="font-cormorant text-3xl lg:text-4xl text-[#EDE8E1] font-light italic mb-8">
-            実際に手に取って、感じてください。
+            どうぞお手に取ってお選びください。
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <Link

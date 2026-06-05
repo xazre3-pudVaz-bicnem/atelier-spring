@@ -14,18 +14,21 @@ export const metadata: Metadata = {
 const categories = [
   {
     en: "Antique & Vintage",
-    ja: "アンティーク・ヴィンテージの食器・雑貨",
+    ja: "アンティークやヴィンテージの食器・雑貨",
     desc: "アルビの蚤の市などからフランス在住の仕入れ担当が見つけたアンティークやヴィンテージの食器・雑貨。大量生産品にはない経年美と個性が魅力の一点物。",
+    showBase: false,
   },
   {
     en: "Selected Goods",
     ja: "店主がセレクトした雑貨",
     desc: "お客様に「ときめき」をお届けするために、店主がひとつひとつ厳選した雑貨。フランスの暮らしから生まれた、置くだけで空間が変わる品々。",
+    showBase: false,
   },
   {
     en: "Handmade Accessories",
     ja: "手仕事のアクセサリー",
     desc: "彫金技術を習得した店主がシルバー925や天然石を使って制作する一点物アクセサリー。薔薇のモチーフや、アンティーク陶磁器を使ったリメイク作品など。",
+    showBase: true,
   },
 ];
 
@@ -94,8 +97,8 @@ export default function Home() {
               </FadeIn>
               <FadeIn delay={0.22}>
                 <div className="space-y-5 text-[13px] lg:text-[14px] leading-loose text-[#5C4A3A] font-light">
-                  <p>Atelier♡Spring（アトリエ♡スプリング）は、東京都調布市国領町にある小さなセレクトショップです。フランス在住の仕入れ担当から届くアンティーク・ヴィンテージの食器や雑貨と、彫金技術を習得した店主が手がける一点物のアクセサリーを取り揃えています。</p>
-                  <p>「必要か必要ではないか」の判断ではなく、「手に取ったときに心が動く」もの——。暮らしが少し楽しくなるもの、心が満たされるものとの出会いを大切に、お客様にときめきをお届けするための品々をご用意しています。</p>
+                  <p>Atelier♡Spring（アトリエ♡スプリング）は、東京都調布市国領町にある小さなセレクトショップです。フランス在住の仕入れ担当から届くアンティークやヴィンテージの食器や雑貨と、彫金技術を習得した店主が手がける一点物のアクセサリーを取り揃えています。</p>
+                  <p>「必要か必要ではないか」の判断ではなく、「手に取ったときに心が動く」もの——。暮らしが少し楽しくなるもの、心が潤うものとの出会いを大切に、お客様にときめきをお届けするための品々をご用意しています。</p>
                   <p>食器・雑貨の一点物から、彫金技術を活かした手しごとのアクセサリーまで。自分へのご褒美にも、大切な方へのギフトにも。</p>
                 </div>
               </FadeIn>
@@ -140,20 +143,27 @@ export default function Home() {
               <h2 className="font-cormorant text-4xl lg:text-5xl text-[#3A3028] font-light">取り扱いカテゴリー</h2>
             </FadeIn>
             <FadeIn delay={0.18}><div className="w-12 h-px bg-[#C9A96E] mx-auto mt-6" /></FadeIn>
-            <FadeIn delay={0.24}><p className="mt-6 text-[12px] text-[#8A7A6A] font-light">すべて一点物。ご購入はBASEオンラインショップにて。</p></FadeIn>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-5">
             {categories.map((cat, i) => (
               <FadeIn key={cat.ja} delay={i * 0.1}>
-                <a href="https://springwater.base.shop/" target="_blank" rel="noopener noreferrer"
-                  className="group block bg-[#FAF8F5] p-7 border border-[#E8E0D6] hover:border-[#C9A96E] hover:-translate-y-1 hover:shadow-[0_8px_32px_rgba(58,48,40,0.08)] transition-all duration-400">
-                  <p className="text-[10px] tracking-[0.3em] text-[#C9A96E] uppercase mb-3">{cat.en}</p>
-                  <h3 className="font-cormorant text-xl text-[#3A3028] font-light mb-3">{cat.ja}</h3>
-                  <p className="text-[12px] text-[#8A7A6A] leading-loose font-light">{cat.desc}</p>
-                  <span className="inline-flex items-center gap-2 mt-5 text-[10px] tracking-[0.2em] text-[#C9A96E] uppercase group-hover:gap-4 transition-all duration-400">
-                    BASEで見る <span className="block w-5 h-px bg-[#C9A96E]" />
-                  </span>
-                </a>
+                {cat.showBase ? (
+                  <a href="https://springwater.base.shop/" target="_blank" rel="noopener noreferrer"
+                    className="group block bg-[#FAF8F5] p-7 border border-[#E8E0D6] hover:border-[#C9A96E] hover:-translate-y-1 hover:shadow-[0_8px_32px_rgba(58,48,40,0.08)] transition-all duration-400">
+                    <p className="text-[10px] tracking-[0.3em] text-[#C9A96E] uppercase mb-3">{cat.en}</p>
+                    <h3 className="font-cormorant text-xl text-[#3A3028] font-light mb-3">{cat.ja}</h3>
+                    <p className="text-[12px] text-[#8A7A6A] leading-loose font-light">{cat.desc}</p>
+                    <span className="inline-flex items-center gap-2 mt-5 text-[10px] tracking-[0.2em] text-[#C9A96E] uppercase group-hover:gap-4 transition-all duration-400">
+                      BASEで見る <span className="block w-5 h-px bg-[#C9A96E]" />
+                    </span>
+                  </a>
+                ) : (
+                  <div className="bg-[#FAF8F5] p-7 border border-[#E8E0D6]">
+                    <p className="text-[10px] tracking-[0.3em] text-[#C9A96E] uppercase mb-3">{cat.en}</p>
+                    <h3 className="font-cormorant text-xl text-[#3A3028] font-light mb-3">{cat.ja}</h3>
+                    <p className="text-[12px] text-[#8A7A6A] leading-loose font-light">{cat.desc}</p>
+                  </div>
+                )}
               </FadeIn>
             ))}
           </div>
@@ -174,7 +184,7 @@ export default function Home() {
               <FadeIn><p className="text-[10px] tracking-[0.4em] text-[#C9A96E] uppercase mb-6">Antique &amp; Vintage</p></FadeIn>
               <FadeIn delay={0.12}>
                 <h2 className="font-cormorant text-4xl lg:text-5xl text-[#3A3028] font-light leading-snug mb-8">
-                  アンティーク・ヴィンテージとの、<br /><span className="italic">ときめく出会い。</span>
+                  アンティークやヴィンテージとの、<br /><span className="italic">ときめく出会い。</span>
                 </h2>
               </FadeIn>
               <FadeIn delay={0.22}>
@@ -264,12 +274,12 @@ export default function Home() {
           <FadeIn><p className="text-[10px] tracking-[0.4em] text-[#C9A96E] uppercase mb-6">Online Shop</p></FadeIn>
           <FadeIn delay={0.12}>
             <h2 className="font-cormorant text-4xl lg:text-5xl text-[#EDE8E1] font-light italic mb-6">
-              最新の商品はBASEで<br />ご覧いただけます。
+              最新のアクセサリーはBASEで<br />ご覧いただけます。
             </h2>
           </FadeIn>
           <FadeIn delay={0.22}>
             <p className="text-[13px] text-[#BDB0A4] font-light leading-loose mb-10 max-w-xl mx-auto">
-              手しごとのアクセサリーをBASEオンラインショップでご購入いただけます。全国発送対応。<br className="hidden sm:block" />食器・雑貨は店舗のみの販売です。
+              アトリエ♡スプリングは、アクセサリーのみをBASEオンラインショップでもご購入いただけます。<br className="hidden sm:block" />新商品は店舗と同じタイミングでアップしております。
             </p>
           </FadeIn>
           <FadeIn delay={0.3}>
