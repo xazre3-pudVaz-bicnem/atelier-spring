@@ -4,7 +4,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "お問い合わせ",
   description:
-    "Atelier♡Spring（調布のアンティークショップ）へのお問い合わせ。商品のご質問、オーダーのご相談はInstagramのDMまたは下記フォームよりお気軽にどうぞ。",
+    "Atelier♡Spring（調布のセレクトショップ）へのお問い合わせ。商品のご質問、オーダーのご相談はInstagramのDMまたは下記フォームよりお気軽にどうぞ。",
 };
 
 export default function ContactPage() {
@@ -56,7 +56,7 @@ export default function ContactPage() {
               <p className="text-[10px] tracking-[0.3em] text-[#8A7A6A] uppercase mb-4">Online Shop</p>
               <h2 className="font-cormorant text-2xl text-[#3A3028] font-light mb-3">BASEショップ</h2>
               <p className="text-[12px] text-[#8A7A6A] font-light leading-loose mb-6">
-                商品のご購入はBASEオンラインショップからお願いいたします。在庫確認もBASEよりお問い合わせいただけます。
+                アクセサリーはBASEオンラインショップからもご購入いただけます。
               </p>
               <span className="text-[11px] tracking-[0.2em] text-[#C9A96E] uppercase flex items-center gap-2 group-hover:gap-4 transition-all duration-300">
                 springwater.base.shop

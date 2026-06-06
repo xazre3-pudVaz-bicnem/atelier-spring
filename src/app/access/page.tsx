@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "アクセス・ご来店案内｜Atelier♡Spring",
     description:
-      "京王線「国領駅」から写真付き道順でご案内。調布市国領町の南フランスアンティーク・雑貨・アクセサリーショップ。",
+      "京王線「国領駅」から写真付き道順でご案内。調布市国領町のアンティークやヴィンテージ雑貨とアクセサリーのセレクトショップ。",
     images: [{ url: "/og-image.jpg", width: 1200, height: 630 }],
     locale: "ja_JP",
     type: "website",
@@ -36,7 +36,7 @@ const localBusinessSchema = {
   name: "Atelier♡Spring",
   alternateName: "アトリエ♡スプリング",
   description:
-    "調布市国領町の南フランスアンティーク食器・雑貨とハンドメイドアクセサリーのお店。",
+    "調布市国領町のアンティークやヴィンテージの食器・雑貨と手作りアクセサリーのセレクトショップ。",
   image: "https://atelier-spring.com/og-image.jpg",
   url: "https://atelier-spring.com",
   address: {
@@ -118,7 +118,7 @@ const steps = [
     step: "03",
     title: "松屋の看板の前の横断歩道を渡ります",
     description:
-      "交差点はありません。松屋の看板の前の横断歩道を渡ってください。",
+      "松屋の看板の前の横断歩道を渡ってください。",
     image: "/images/access/access-03.jpg",
     imageAlt: "松屋の看板前 横断歩道",
   },
@@ -207,11 +207,11 @@ const faqs = [
   },
   {
     q: "オンラインショップはありますか？",
-    a: "はい、BASEオンラインショップ（springwater.base.shop）にてご購入いただけます。遠方の方や、ご来店が難しい方もぜひご利用ください。全国発送対応しています。",
+    a: "はい、アクセサリーのみBASEオンラインショップ（springwater.base.shop）でもご購入いただけます。遠方の方や、ご来店が難しい方もぜひご利用ください。全国発送対応しています。",
   },
   {
-    q: "調布駅から二駅目ですか？",
-    a: "はい、京王線で調布駅から二駅目の「国領駅」でお降りください。国領駅から当店まで徒歩約3分です。改札は一ヶ所なので迷わずお越しいただけます。",
+    q: "調布からのアクセスは？",
+    a: "京王線をご利用の場合、調布駅から2駅目の「国領駅」でお降りください。国領駅から当店まで徒歩約3分です。改札は一ヶ所なので迷わずお越しいただけます。",
   },
 ];
 

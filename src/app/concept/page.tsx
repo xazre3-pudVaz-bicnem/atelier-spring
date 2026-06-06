@@ -24,7 +24,7 @@ export default function ConceptPage() {
         <div className="relative z-10 max-w-6xl mx-auto px-6 lg:px-10 w-full">
           <p className="text-[10px] tracking-[0.4em] text-[#C9A96E] uppercase mb-3">Concept</p>
           <h1 className="font-cormorant text-4xl lg:text-6xl text-white font-light italic">
-            ときめきと出会う場所
+            ときめきと出逢う場所
           </h1>
         </div>
       </section>
@@ -145,11 +145,11 @@ export default function ConceptPage() {
               {
                 num: "01",
                 title: "ときめきの一点物",
-                body: "「必要か必要ではないか」の判断ではなく、心が潤うか——そのときめきを基準に、フランスから一点一点セレクトしています。",
+                body: "「必要か必要ではないか」の判断ではなく、心が潤うか——そのときめきを基準に、店主がセレクトしています。",
               },
               {
                 num: "02",
-                title: "手しごとのぬくもり",
+                title: "手しごとの温もり",
                 body: "彫金技術を学んだ店主が一つひとつ手がけるアクセサリー。量産品にはない、手仕事だからこそ宿る温もりがあります。",
               },
               {

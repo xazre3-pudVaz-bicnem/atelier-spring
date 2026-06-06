@@ -24,21 +24,21 @@ const jost = Jost({
 export const metadata: Metadata = {
   metadataBase: new URL("https://atelier-spring.com"),
   title: {
-    default: "調布のアンティーク雑貨店｜Atelier♡Spring",
+    default: "調布・国領のセレクトショップ｜Atelier♡Spring",
     template: "%s｜Atelier♡Spring",
   },
   description:
-    "東京都調布市国領町のAtelier♡Springは、南フランスアンティーク食器と手作りアクセサリーを扱うアンティークショップです。ジュエリーデザイナーである店主が、フランスから厳選した一点物を取り揃えています。",
-  keywords: ["調布", "アンティーク", "南フランス", "アンティーク食器", "手作りアクセサリー", "国領", "ジュエリー", "アトリエスプリング"],
+    "東京都調布市国領町のAtelier♡Springは、フランスから届くアンティークやヴィンテージの食器・雑貨と手作りアクセサリーを扱うセレクトショップです。彫金技術を習得した店主が制作する一点物アクセサリーも取り揃えています。",
+  keywords: ["調布", "アンティーク", "セレクトショップ", "アンティーク食器", "手作りアクセサリー", "国領", "ヴィンテージ", "アトリエスプリング"],
   authors: [{ name: "Atelier♡Spring" }],
   openGraph: {
     type: "website",
     locale: "ja_JP",
     url: "https://atelier-spring.com",
-    siteName: "Atelier♡Spring｜調布のアンティーク雑貨店",
-    title: "調布のアンティーク雑貨店｜Atelier♡Spring",
+    siteName: "Atelier♡Spring｜調布・国領のセレクトショップ",
+    title: "調布・国領のセレクトショップ｜Atelier♡Spring",
     description:
-      "東京都調布市国領町のAtelier♡Springは、南フランスアンティーク食器と手作りアクセサリーを扱うアンティークショップです。",
+      "東京都調布市国領町のAtelier♡Springは、フランスから届くアンティークやヴィンテージの食器・雑貨と手作りアクセサリーを扱うセレクトショップです。",
     images: [
       {
         url: "/images/og-image.jpg",
@@ -50,9 +50,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "調布のアンティーク雑貨店｜Atelier♡Spring",
+    title: "調布・国領のセレクトショップ｜Atelier♡Spring",
     description:
-      "東京都調布市国領町のAtelier♡Springは、南フランスアンティーク食器と手作りアクセサリーを扱うアンティークショップです。",
+      "東京都調布市国領町のAtelier♡Springは、フランスから届くアンティークやヴィンテージの食器・雑貨と手作りアクセサリーを扱うセレクトショップです。",
     images: ["/images/og-image.jpg"],
   },
   robots: {
@@ -69,7 +69,7 @@ const jsonLd = {
   "@type": "Store",
   name: "Atelier♡Spring（アトリエ♡スプリング）",
   description:
-    "南フランスアンティーク食器と手作りアクセサリーを扱うアンティークショップ",
+    "フランスから届くアンティークやヴィンテージの食器・雑貨と手作りアクセサリーを扱うセレクトショップ",
   url: "https://atelier-spring.com",
   image: "https://atelier-spring.com/images/og-image.jpg",
   address: {

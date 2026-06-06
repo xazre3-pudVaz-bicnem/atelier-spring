@@ -52,7 +52,7 @@ export default function Footer() {
             </address>
             <p className="text-[12px] leading-loose text-[#BDB0A4] font-light mb-6">
               営業時間 11:00〜18:00<br />
-              定休日：月曜・第1・第3火曜日
+              定休日：毎週月曜日・第1・第3火曜日
             </p>
             <div className="flex flex-col gap-3">
               <a
