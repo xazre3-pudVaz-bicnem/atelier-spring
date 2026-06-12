@@ -80,6 +80,7 @@ const jsonLd = {
     postalCode: "182-0022",
     addressCountry: "JP",
   },
+  email: "lavender.izumi@ezweb.ne.jp",
   sameAs: [
     "https://www.instagram.com/atelierspring_izumi/",
     "https://springwater.base.shop/",

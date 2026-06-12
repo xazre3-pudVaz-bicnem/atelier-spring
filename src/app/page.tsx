@@ -331,7 +331,7 @@ export default function Home() {
               Atelier♡Springの様子はInstagramで。<br />
               店主が時々投稿しております。<br />
               お得な情報も！？<br />
-              ときめく品々との出逢いにいらしてください。
+              素敵な一点物と出逢いにいらしてください。
             </p>
           </FadeIn>
           <FadeIn delay={0.3}>

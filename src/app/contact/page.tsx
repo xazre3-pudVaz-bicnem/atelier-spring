@@ -27,7 +27,7 @@ export default function ContactPage() {
       {/* Contact options */}
       <section className="pb-20 lg:pb-32 bg-[#FAF8F5]">
         <div className="max-w-4xl mx-auto px-6 lg:px-10">
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-16">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-16">
             {/* Instagram DM */}
             <a
               href="https://www.instagram.com/atelierspring_izumi/"
@@ -43,6 +43,22 @@ export default function ContactPage() {
               <span className="text-[11px] tracking-[0.2em] text-[#C9A96E] uppercase flex items-center gap-2 group-hover:gap-4 transition-all duration-300">
                 @atelierspring_izumi
                 <span className="block w-6 h-px bg-[#C9A96E]" />
+              </span>
+            </a>
+
+            {/* Email */}
+            <a
+              href="mailto:lavender.izumi@ezweb.ne.jp"
+              className="group border border-[#E8E0D6] p-8 lg:p-10 hover:border-[#C9A96E] transition-all duration-300"
+            >
+              <p className="text-[10px] tracking-[0.3em] text-[#8A7A6A] uppercase mb-4">Email</p>
+              <h2 className="font-cormorant text-2xl text-[#3A3028] font-light mb-3">メール</h2>
+              <p className="text-[12px] text-[#8A7A6A] font-light leading-loose mb-6">
+                メールでのお問い合わせも承っております。件名にお問い合わせ内容をご記入ください。
+              </p>
+              <span className="text-[11px] tracking-[0.15em] text-[#C9A96E] flex items-center gap-2 group-hover:gap-4 transition-all duration-300 break-all">
+                lavender.izumi@ezweb.ne.jp
+                <span className="block w-6 h-px bg-[#C9A96E] flex-shrink-0" />
               </span>
             </a>
 

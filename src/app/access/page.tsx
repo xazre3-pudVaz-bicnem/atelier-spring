@@ -52,6 +52,7 @@ const localBusinessSchema = {
     latitude: 35.6465,
     longitude: 139.5565,
   },
+  email: "lavender.izumi@ezweb.ne.jp",
   sameAs: [
     "https://www.instagram.com/atelierspring_izumi/",
     "https://springwater.base.shop/",

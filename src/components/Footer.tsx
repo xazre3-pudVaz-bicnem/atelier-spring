@@ -73,6 +73,13 @@ export default function Footer() {
                 <span className="w-4 h-px bg-[#C9A96E]" />
                 Online Shop (BASE)
               </a>
+              <a
+                href="mailto:lavender.izumi@ezweb.ne.jp"
+                className="text-[11px] tracking-[0.1em] text-[#C9A96E] hover:text-[#DEC08A] transition-colors duration-300 flex items-center gap-2"
+              >
+                <span className="w-4 h-px bg-[#C9A96E]" />
+                lavender.izumi@ezweb.ne.jp
+              </a>
             </div>
           </div>
         </div>
