@@ -175,7 +175,7 @@ const steps = [
     step: "10",
     title: "コインランドリーが見えたらすぐです",
     description:
-      "コインランドリーが右手に見えたら、ショップはもうすぐそこです。",
+      "コインランドリーの隣がアトリエ♡スプリングです。",
     image: "/images/access/access-10.jpg",
     imageAlt: "コインランドリー 目印",
   },
