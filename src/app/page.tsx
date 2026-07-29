@@ -102,7 +102,21 @@ export default function Home() {
                   <p>食器・雑貨の一点物から、彫金技術を活かした手しごとのアクセサリーまで。自分へのご褒美にも、大切な方へのギフトにも。</p>
                 </div>
               </FadeIn>
-              <FadeIn delay={0.32}>
+
+              {/* 店主プロフィール（署名） */}
+              <FadeIn delay={0.3}>
+                <div className="mt-12 pt-8 border-t border-[#C9A96E]/25">
+                  <p className="text-[10px] tracking-[0.35em] text-[#C9A96E] mb-3">店主・作家</p>
+                  <p className="font-cormorant text-2xl lg:text-[26px] text-[#3A3028] font-light tracking-[0.18em] mb-6">
+                    田中 泉
+                  </p>
+                  <p className="text-[13px] lg:text-[14px] leading-loose text-[#5C4A3A] font-light">
+                    アトリエ♡スプリングで販売している物は生活必需品ではないので、使うことで生活が楽しくなったり、心が潤ったりするものをセレクトしております。お客様にときめきを感じていただけたら嬉しいです。
+                  </p>
+                </div>
+              </FadeIn>
+
+              <FadeIn delay={0.4}>
                 <div className="mt-10">
                   <Link href="/concept" className="inline-flex items-center gap-3 text-[11px] tracking-[0.25em] text-[#C9A96E] uppercase group">
                     コンセプトを詳しく見る

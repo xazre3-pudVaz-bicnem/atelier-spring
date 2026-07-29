@@ -72,6 +72,11 @@ const jsonLd = {
     "フランスから届くアンティークやヴィンテージの食器・雑貨と手作りアクセサリーを扱うセレクトショップ",
   url: "https://atelier-spring.com",
   image: "https://atelier-spring.com/images/og-image.jpg",
+  founder: {
+    "@type": "Person",
+    name: "田中 泉",
+    jobTitle: "店主・作家",
+  },
   address: {
     "@type": "PostalAddress",
     streetAddress: "国領町4-7-23",

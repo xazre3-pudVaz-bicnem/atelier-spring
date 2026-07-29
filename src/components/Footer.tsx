@@ -15,7 +15,7 @@ export default function Footer() {
             </p>
             <p className="text-[12px] leading-relaxed text-[#BDB0A4] font-light">
               フランスから届くアンティークやヴィンテージ雑貨と<br />
-              手仕事のアクセサリーのセレクトショップ
+              手作りのアクセサリーのセレクトショップ
             </p>
           </div>
 
@@ -50,6 +50,9 @@ export default function Footer() {
               東京都調布市国領町4-7-23<br />
               京王線 国領駅より徒歩約3分
             </address>
+            <p className="text-[12px] leading-loose text-[#BDB0A4] font-light mb-4">
+              店主：田中 泉
+            </p>
             <p className="text-[12px] leading-loose text-[#BDB0A4] font-light mb-6">
               営業時間 11:00〜18:00<br />
               定休日：毎週月曜日・第1・第3火曜日
